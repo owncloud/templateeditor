@@ -12,7 +12,11 @@
 	height: 150px;
 }
 
+#mailTemplateSettings .templateEditor {
+	display:none;
+}
 #mailTemplateSettings .templateEditor + .actions {
+	display:none;
 	height:28px;
 }
 

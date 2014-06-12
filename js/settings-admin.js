@@ -1,6 +1,9 @@
 $(document).ready(function() {
 
 	var loadTemplate = function (theme, template) {
+		//the first time we load a template show the editor
+		$( '#mailTemplateSettings .templateEditor:hidden').show(400);
+		$( '#mailTemplateSettings .templateEditor + .actions:hidden').show(400);
 		$.get(
 			OC.generateUrl('apps/templateeditor/settings/mailtemplate'),
 			{ theme: theme, template: template }
@@ -10,11 +13,6 @@ $(document).ready(function() {
 			OC.dialogs.alert(result.responseJSON.message, t('templateeditor', 'Could not load template'));
 		});
 	};
-
-	// load default template
-	var theme = $( '#mts-theme' ).val();
-	var template = $( '#mts-template' ).val();
-	loadTemplate(theme, template);
 
 	$( '#mts-template' ).change(
 		function() {

@@ -71,8 +71,8 @@ class MailTemplate extends \OC_Template {
 	}
 
 	public function isEditable() {
-		if ($this->editableThemes[$this->theme]
-			&& $this->editableTemplates[$this->path]
+		if (isset($this->editableThemes[$this->theme])
+			&& isset($this->editableTemplates[$this->path])
 		) {
 			return true;
 		}
@@ -121,6 +121,9 @@ class MailTemplate extends \OC_Template {
 		throw new NotPermittedException('Template not editable.', 403);
 	}
 
+	/**
+	 * @return array with available themes. consists of core and subfolders in the themes folder
+	 */
 	public static function getEditableThemes() {
 		$themes = array(
 			'default' => true
@@ -138,11 +141,15 @@ class MailTemplate extends \OC_Template {
 		return $themes;
 	}
 
+	/**
+	 * @return array with keys containing the path and values containing the name of a template
+	 */
 	public static function getEditableTemplates() {
+		$l10n = \OC_L10N::get('templateeditor');
 		return array(
-			'core/templates/mail.php' => true,
-			'core/templates/altmail.php' => true,
-			'core/lostpassword/templates/email.php' => true,
+			'core/templates/mail.php' => $l10n->t('Sharing email (http)'),
+			'core/templates/altmail.php' => $l10n->t('Sharing email'),
+			'core/lostpassword/templates/email.php' => $l10n->t('Lost password mail'),
 		);
 	}
 }

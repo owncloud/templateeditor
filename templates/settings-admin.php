@@ -8,7 +8,7 @@
 			<label for="mts-theme"><?php p($l->t('Theme'));?></label>
 			<select id="mts-theme">
 				<?php foreach($_['themes'] as $theme => $editable): ?>
-				<option><?php p($theme); ?></option>
+				<option value="<?php p($theme); ?>"><?php p($theme); ?></option>
 				<?php endforeach; ?>
 			</select>
 		</div>
@@ -16,8 +16,9 @@
 		<div>
 			<label for="mts-template"><?php p($l->t('Template'));?></label>
 			<select id="mts-template">
-				<?php foreach($_['editableTemplates'] as $template => $editable): ?>
-				<option><?php p($template); ?></option>
+				<option value="" disabled selected><?php p($l->t('Please choose a template')); ?></option>
+				<?php foreach($_['editableTemplates'] as $template => $caption): ?>
+				<option value="<?php p($template); ?>"><?php p($caption); ?></option>
 				<?php endforeach; ?>
 			</select>
 		</div>
