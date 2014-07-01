@@ -45,7 +45,6 @@ class MailTemplate extends \OC_Template {
 	}
 	
 	/**
-	 * 
 	 * @return \OCA\TemplateEditor\Http\MailTemplateResponse
 	 * @throws \OC\AppFramework\Middleware\Security\SecurityException
 	 */
@@ -146,10 +145,18 @@ class MailTemplate extends \OC_Template {
 	 */
 	public static function getEditableTemplates() {
 		$l10n = \OC_L10N::get('templateeditor');
-		return array(
+		$templates = array(
 			'core/templates/mail.php' => $l10n->t('Sharing email (http)'),
 			'core/templates/altmail.php' => $l10n->t('Sharing email'),
 			'core/lostpassword/templates/email.php' => $l10n->t('Lost password mail'),
 		);
+
+		if (\OCP\App::isEnabled('activity')) {
+			$tmplPath = \OC_App::getAppPath('activity') . '/templates/email.notification.php';
+			$path = substr($tmplPath, strlen(\OC::$SERVERROOT) + 1);
+			$templates[$path] = $l10n->t('Activity notification mail');
+		}
+
+		return $templates;
 	}
 }
