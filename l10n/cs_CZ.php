@@ -3,6 +3,7 @@ $TRANSLATIONS = array(
 "Could not load template" => "Šablonu nelze nahrát",
 "Saved" => "Uloženo",
 "Reset" => "Restartovat složku",
+"Activity notification mail" => "Aktivovat emailová upozornění",
 "Mail templates" => "E-mailové šablony",
 "Theme" => "Vzhled",
 "Template" => "Šablona",
