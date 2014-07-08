@@ -1,7 +1,9 @@
 <?php
 $TRANSLATIONS = array(
+"Could not load template" => "Não foi possivel carregar o modelo",
 "Saved" => "Guardado",
 "Reset" => "Repor",
+"Activity notification mail" => "Email de notificação de actividade",
 "Mail templates" => "Modelo de email",
 "Theme" => "Tema",
 "Template" => "Template",

@@ -6,6 +6,7 @@ $TRANSLATIONS = array(
 "Mail templates" => "Plantíes de corréu",
 "Theme" => "Tema",
 "Template" => "Plantía",
+"Please choose a template" => "Por favor, escueyi una plantía",
 "Save" => "Guardar"
 );
 $PLURAL_FORMS = "nplurals=2; plural=(n != 1);";
