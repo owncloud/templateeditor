@@ -1,5 +1,6 @@
 <?php
 $TRANSLATIONS = array(
+"Could not load template" => "Невозможно загрузить шаблон",
 "Saved" => "Сохранено",
 "Reset" => "Сброс",
 "Theme" => "Тема",
