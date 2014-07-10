@@ -39,7 +39,7 @@ class AdminSettingsController extends ApiController {
 	 * @param string $template
 	 * @return \OCA\TemplateEditor\Http\MailTemplateResponse
 	 */
-	public function render( $theme, $template ) {
+	public function renderTemplate( $theme, $template ) {
 		try {
 			$template = new MailTemplate( $theme, $template );
 			return $template->getResponse();
@@ -54,7 +54,7 @@ class AdminSettingsController extends ApiController {
 	 * @param string $content
 	 * @return JSONResponse
 	 */
-	public function update( $theme, $template, $content ) {
+	public function updateTemplate( $theme, $template, $content ) {
 		try {
 			$template = new MailTemplate( $theme, $template );
 			$template->setContent( $content );
@@ -69,7 +69,7 @@ class AdminSettingsController extends ApiController {
 	 * @param string $template
 	 * @return JSONResponse
 	 */
-	public function reset( $theme, $template ) {
+	public function resetTemplate( $theme, $template ) {
 		try {
 			$template = new MailTemplate( $theme, $template );
 			$template->reset();
