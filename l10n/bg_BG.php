@@ -1,5 +1,6 @@
 <?php
 $TRANSLATIONS = array(
+"Saved" => "Запис",
 "Reset" => "Възстанови",
 "Save" => "Запис"
 );
