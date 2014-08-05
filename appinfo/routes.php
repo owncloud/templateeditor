@@ -26,10 +26,10 @@ $app = new \OCA\TemplateEditor\App\TemplateEditor();
 $app->registerRoutes($this, array('routes' => array(
 
 	// mailTemplate settings
-	array('name' => 'admin_settings#render', 'url' => '/settings/mailtemplate', 'verb' => 'GET'),
+	array('name' => 'admin_settings#renderTemplate', 'url' => '/settings/mailtemplate', 'verb' => 'GET'),
 
-	array('name' => 'admin_settings#update', 'url' => '/settings/mailtemplate', 'verb' => 'POST'),
+	array('name' => 'admin_settings#updateTemplate', 'url' => '/settings/mailtemplate', 'verb' => 'POST'),
 
-	array('name' => 'admin_settings#reset', 'url' => '/settings/mailtemplate', 'verb' => 'DELETE')
+	array('name' => 'admin_settings#resetTemplate', 'url' => '/settings/mailtemplate', 'verb' => 'DELETE')
 
 )));
