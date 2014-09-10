@@ -2,11 +2,14 @@
 $TRANSLATIONS = array(
 "Could not load template" => "Mallipohjan lataaminen epäonnistui",
 "Saved" => "Tallennettu",
-"Reset" => "Nollaa salasana",
+"Reset" => "Nollaa",
+"Sharing email (HTML)" => "Jakamisen viesti (HTML)",
+"Sharing email (plain text fallback)" => "Jakamisen viesti (raakatestivarmistus)",
 "Lost password mail" => "Unohtunut salasana -sähköposti",
+"Activity notification mail" => "Toimien ilmoitusviesti",
 "Mail templates" => "Sähköpostimallit",
 "Theme" => "Teema",
-"Template" => "Mallit",
+"Template" => "Malli",
 "Please choose a template" => "Valitse mallipohja",
 "Save" => "Tallenna"
 );
