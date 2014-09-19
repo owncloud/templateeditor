@@ -56,7 +56,7 @@ $(document).ready(function() {
 			OC.msg.startSaving('#mts-msg');
 			$.ajax({
 				type: "DELETE",
-				url: OC.generateUrl('apps/files_sharing/settings/mailtemplate'),
+				url: OC.generateUrl('apps/templateeditor/settings/mailtemplate'),
 				data: { theme: theme, template: template }
 			}).done(function() {
 				var data = { status:'success', data:{message:t('files_sharing', 'Reset')} };
