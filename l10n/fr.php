@@ -1,7 +1,7 @@
 <?php
 $TRANSLATIONS = array(
 "Could not load template" => "Impossible de charger le modèle",
-"Saved" => "Sauvegarder",
+"Saved" => "Sauvegardé",
 "Reset" => "Réinitialiser",
 "Sharing email (HTML)" => "Email de partage (HTML)",
 "Sharing email (plain text fallback)" => "Email de partage (repli en format texte)",
