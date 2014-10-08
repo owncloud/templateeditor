@@ -18,7 +18,13 @@ $(document).ready(function() {
 		function() {
 			var theme = $( '#mts-theme' ).val();
 			var template = $( this ).val();
-			loadTemplate(theme, template);
+			if (template) {
+				loadTemplate(theme, template);
+			} else {
+				//hide editor
+				$( '#mailTemplateSettings .templateEditor').hide(400);
+				$( '#mailTemplateSettings .templateEditor + .actions').hide(400);
+			}
 		}
 	);
 
