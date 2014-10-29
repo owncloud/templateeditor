@@ -3,6 +3,7 @@ $TRANSLATIONS = array(
 "Could not load template" => "Ezin da txantiloia kargatu",
 "Saved" => "Gordeta",
 "Reset" => "Berrezarri",
+"Sharing email (HTML)" => "Partekatzeko eposta (HTML)",
 "Lost password mail" => "Postaren pasahitza galduta",
 "Activity notification mail" => "Jarduera jakinarazpen mezua",
 "Mail templates" => "Posta txantiloia",
