@@ -7,7 +7,6 @@ $TRANSLATIONS = array(
 "Sharing email (plain text fallback)" => "Souporaba elektronske pošte (neoblikovano besedilo)",
 "Lost password mail" => "Elektronsko sporočilo za pozabljeno geslo",
 "Activity notification mail" => "Elektronsko sporočilo za obvestolo o dejavnostih",
-"Mail templates" => "Predloge elektronskih sporočil",
 "Theme" => "Tema",
 "Template" => "Predloga",
 "Please choose a template" => "Izberite predlogo",

@@ -7,7 +7,6 @@ $TRANSLATIONS = array(
 "Sharing email (plain text fallback)" => "E-kirjaga jagamine (lihttekstina)",
 "Lost password mail" => "Unustatud parooli kiri",
 "Activity notification mail" => "Tegevuste teavituse kiri",
-"Mail templates" => "Kirja mallid",
 "Theme" => "Teema",
 "Template" => "Mall",
 "Please choose a template" => "Palun vali mall",

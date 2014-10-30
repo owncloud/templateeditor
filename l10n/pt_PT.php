@@ -7,7 +7,6 @@ $TRANSLATIONS = array(
 "Sharing email (plain text fallback)" => "Partilhar email (texto sem formatação)",
 "Lost password mail" => "Perdi a palavra passe do mail",
 "Activity notification mail" => "Email de notificação de actividade",
-"Mail templates" => "Modelo de email",
 "Theme" => "Tema",
 "Template" => "Template",
 "Please choose a template" => "Por favor escolha um modelo",

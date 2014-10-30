@@ -6,7 +6,6 @@ $TRANSLATIONS = array(
 "Sharing email (HTML)" => "Partekatzeko eposta (HTML)",
 "Lost password mail" => "Postaren pasahitza galduta",
 "Activity notification mail" => "Jarduera jakinarazpen mezua",
-"Mail templates" => "Posta txantiloia",
 "Theme" => "Gaia",
 "Template" => "Txantiloia",
 "Please choose a template" => "Aukeratu txantiloi bat",

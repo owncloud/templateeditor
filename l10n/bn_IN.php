@@ -5,7 +5,6 @@ $TRANSLATIONS = array(
 "Reset" => "রিসেট করুন",
 "Lost password mail" => "হারানো পাসওয়ার্ডের জন্যে মেইল",
 "Activity notification mail" => "কার্যকলাপের বিজ্ঞপ্তি মেইল",
-"Mail templates" => "মেইল টেমপ্লেত",
 "Theme" => "থিম",
 "Template" => "টেম্পলেট ",
 "Please choose a template" => "একটি টেম্পলেট বেছে নিন",

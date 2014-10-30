@@ -5,7 +5,6 @@ $TRANSLATIONS = array(
 "Reset" => "تنظیم مجدد",
 "Lost password mail" => "ایمیل فراموش کردن رمز عبور",
 "Activity notification mail" => "ایمیل هشدار فعالیت",
-"Mail templates" => "قالب های ایمیل",
 "Theme" => "تم",
 "Template" => "قالب",
 "Please choose a template" => "لطفا یک قالب انتخاب کنید",

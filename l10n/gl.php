@@ -5,7 +5,6 @@ $TRANSLATIONS = array(
 "Reset" => "Restabelecer",
 "Lost password mail" => "Correo de contrasinal perdido",
 "Activity notification mail" => "Correo de notificación de actividade",
-"Mail templates" => "Modelos de correo",
 "Theme" => "Tema",
 "Template" => "Modelo",
 "Please choose a template" => "Escolle un modelo",

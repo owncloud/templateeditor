@@ -7,7 +7,6 @@ $TRANSLATIONS = array(
 "Sharing email (plain text fallback)" => "email paylaşımı (ehtiyat adi tekst)",
 "Lost password mail" => "Poçt şifrəsini unutdum",
 "Activity notification mail" => "Poçt aktivliyi xəbərdarlığı",
-"Mail templates" => "Məktub şablonları",
 "Theme" => "Mövzu",
 "Template" => "Şablon",
 "Please choose a template" => "Xahiş olunur şablonu seçəsiniz",

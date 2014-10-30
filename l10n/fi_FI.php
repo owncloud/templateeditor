@@ -7,7 +7,6 @@ $TRANSLATIONS = array(
 "Sharing email (plain text fallback)" => "Jakamisen viesti (raakatestivarmistus)",
 "Lost password mail" => "Unohtunut salasana -sähköposti",
 "Activity notification mail" => "Toimien ilmoitusviesti",
-"Mail templates" => "Sähköpostimallit",
 "Theme" => "Teema",
 "Template" => "Malli",
 "Please choose a template" => "Valitse mallipohja",

@@ -5,7 +5,6 @@ $TRANSLATIONS = array(
 "Reset" => "重置",
 "Lost password mail" => "密码丢失邮件",
 "Activity notification mail" => "动态通知邮件",
-"Mail templates" => "邮件模板",
 "Theme" => "主题",
 "Template" => "模板",
 "Please choose a template" => "请选择一个模板",

@@ -5,7 +5,6 @@ $TRANSLATIONS = array(
 "Reset" => "Återställ",
 "Lost password mail" => "Förlorat lösenord-mail",
 "Activity notification mail" => "Aktivitets notifierings-mail",
-"Mail templates" => "e-postmallar",
 "Theme" => "Teman",
 "Template" => "Mallar",
 "Please choose a template" => "Vänligen välj mall",

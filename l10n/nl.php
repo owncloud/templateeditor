@@ -7,7 +7,6 @@ $TRANSLATIONS = array(
 "Sharing email (plain text fallback)" => "Delen e-mail (terugvallen op kale tekst)",
 "Lost password mail" => "Vergeten wachtwoord e-mail",
 "Activity notification mail" => "Activiteitenmelding e-mail",
-"Mail templates" => "E-mailsjablonen",
 "Theme" => "Thema",
 "Template" => "Sjabloon",
 "Please choose a template" => "Kies een sjabloon",
