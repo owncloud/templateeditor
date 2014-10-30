@@ -1,6 +1,6 @@
 <div class="section" id="mailTemplateSettings" >
 
-	<h2><?php p($l->t('Mail templates'));?></h2>
+	<h2><?php p($l->t('Mail Templates'));?></h2>
 
 	<div class="actions">
 
