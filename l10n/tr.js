@@ -8,6 +8,7 @@ OC.L10N.register(
     "Sharing email (plain text fallback)" : "Paylaşma e-postası (düz metin, ikincil)",
     "Lost password mail" : "Kayıp parola postası",
     "Activity notification mail" : "Etkinlik bildirimi postası",
+    "Mail Templates" : "Posta Şablonları",
     "Theme" : "Tema",
     "Template" : "Şablon",
     "Please choose a template" : "Lütfen bir şablon seçin",

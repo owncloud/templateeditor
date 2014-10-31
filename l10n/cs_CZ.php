@@ -7,6 +7,7 @@ $TRANSLATIONS = array(
 "Sharing email (plain text fallback)" => "Sdílet e-mail (pouze prostý text)",
 "Lost password mail" => "E-mail se zapomenutým heslem",
 "Activity notification mail" => "E-mailová upozornění na aktivitu",
+"Mail Templates" => "Šablony e-mailů",
 "Theme" => "Vzhled",
 "Template" => "Šablona",
 "Please choose a template" => "Zvolte prosím šablonu",

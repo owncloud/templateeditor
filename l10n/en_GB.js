@@ -8,6 +8,7 @@ OC.L10N.register(
     "Sharing email (plain text fallback)" : "Sharing email (plain text fallback)",
     "Lost password mail" : "Lost password mail",
     "Activity notification mail" : "Activity notification mail",
+    "Mail Templates" : "Mail Templates",
     "Theme" : "Theme",
     "Template" : "Template",
     "Please choose a template" : "Please choose a template",

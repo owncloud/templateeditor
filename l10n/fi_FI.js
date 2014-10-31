@@ -8,6 +8,7 @@ OC.L10N.register(
     "Sharing email (plain text fallback)" : "Jakamisen viesti (raakatestivarmistus)",
     "Lost password mail" : "Unohtunut salasana -sähköposti",
     "Activity notification mail" : "Toimien ilmoitusviesti",
+    "Mail Templates" : "Sähköpostipohjat",
     "Theme" : "Teema",
     "Template" : "Malli",
     "Please choose a template" : "Valitse mallipohja",
