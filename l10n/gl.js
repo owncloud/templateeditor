@@ -8,7 +8,7 @@ OC.L10N.register(
     "Activity notification mail" : "Correo de notificación de actividade",
     "Theme" : "Tema",
     "Template" : "Modelo",
-    "Please choose a template" : "Escolle un modelo",
+    "Please choose a template" : "Escolla un modelo",
     "Save" : "Gardar"
 },
 "nplurals=2; plural=(n != 1);");
