@@ -8,6 +8,7 @@ OC.L10N.register(
     "Sharing email (plain text fallback)" : "Souporaba elektronske pošte (neoblikovano besedilo)",
     "Lost password mail" : "Elektronsko sporočilo za pozabljeno geslo",
     "Activity notification mail" : "Elektronsko sporočilo za obvestolo o dejavnostih",
+    "Mail Templates" : "Predloga elektronske pošte",
     "Theme" : "Tema",
     "Template" : "Predloga",
     "Please choose a template" : "Izberite predlogo",
