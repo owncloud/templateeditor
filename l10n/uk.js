@@ -8,6 +8,7 @@ OC.L10N.register(
     "Sharing email (plain text fallback)" : "Загальний доступ (звичайний текст)",
     "Lost password mail" : "Відновлення пароля",
     "Activity notification mail" : "Повідомлення активності",
+    "Mail Templates" : "Шаблони Листів",
     "Theme" : "Тема",
     "Template" : "Шаблон",
     "Please choose a template" : "Будь ласка, оберіть шаблон",
