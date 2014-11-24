@@ -8,6 +8,7 @@ OC.L10N.register(
     "Sharing email (plain text fallback)" : "Zdieľať email (len jednoduchý text)",
     "Lost password mail" : "Email so zabudnutým heslom",
     "Activity notification mail" : "Oznámenia o aktivite emailom",
+    "Mail Templates" : "Šablóny mailov",
     "Theme" : "Téma",
     "Template" : "Šablóna",
     "Please choose a template" : "Zvoľte si šablónu",
