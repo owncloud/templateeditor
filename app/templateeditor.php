@@ -42,5 +42,10 @@ class TemplateEditor extends App {
 				$c->query('Request')
 			);
 		});
+
+		$app = $this;
+		$container->getServer()->registerService('TemplateEditor', function($c) use ($app) {
+			return $app;
+		});
 	}
 }
