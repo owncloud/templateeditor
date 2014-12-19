@@ -149,6 +149,8 @@ class MailTemplate extends \OC_Template {
 			'core/templates/mail.php' => $l10n->t('Sharing email (HTML)'),
 			'core/templates/altmail.php' => $l10n->t('Sharing email (plain text fallback)'),
 			'core/lostpassword/templates/email.php' => $l10n->t('Lost password mail'),
+			'settings/templates/email.new_user.php' => $l10n->t('New user email (HTML)'),
+			'settings/templates/email.new_user_plain_text.php' => $l10n->t('New user email (plain text fallback)'),
 		);
 
 		if (\OCP\App::isEnabled('activity')) {
