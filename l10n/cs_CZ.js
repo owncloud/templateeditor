@@ -7,6 +7,8 @@ OC.L10N.register(
     "Sharing email (HTML)" : "Sdílet e-mail (HTML)",
     "Sharing email (plain text fallback)" : "Sdílet e-mail (pouze prostý text)",
     "Lost password mail" : "E-mail se zapomenutým heslem",
+    "New user email (HTML)" : "E-mail novému uživateli (HTML)",
+    "New user email (plain text fallback)" : "E-mail novému uživateli (čistý text)",
     "Activity notification mail" : "E-mailová upozornění na aktivitu",
     "Mail Templates" : "Šablony e-mailů",
     "Theme" : "Vzhled",
