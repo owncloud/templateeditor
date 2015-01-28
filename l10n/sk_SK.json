@@ -5,6 +5,8 @@
     "Sharing email (HTML)" : "Zdieľať email (HTML)",
     "Sharing email (plain text fallback)" : "Zdieľať email (len jednoduchý text)",
     "Lost password mail" : "Email so zabudnutým heslom",
+    "New user email (HTML)" : "Email novému používateľovi (HTML)",
+    "New user email (plain text fallback)" : "Email novému používateľovi (jednoduchý text)",
     "Activity notification mail" : "Oznámenia o aktivite emailom",
     "Mail Templates" : "Šablóny mailov",
     "Theme" : "Téma",
