@@ -7,6 +7,8 @@ OC.L10N.register(
     "Sharing email (HTML)" : "Имейл за споделяне (HTML)",
     "Sharing email (plain text fallback)" : "Имейл за споделяне (обикновен текст)",
     "Lost password mail" : "Имейл за загубена парола",
+    "New user email (HTML)" : "Ново потребителско писмо (HTML)",
+    "New user email (plain text fallback)" : "Ново потребителско писмо (обикновен текст резервен вариант)",
     "Activity notification mail" : "Имейл за уведмления за активност",
     "Mail Templates" : "Шаблони за Писма",
     "Theme" : "Тема",
