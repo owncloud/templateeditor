@@ -24,6 +24,7 @@
 namespace OCA\TemplateEditor\Controller;
 
 use OCP\AppFramework\ApiController;
+use OCP\AppFramework\Http;
 use OCP\AppFramework\Http\JSONResponse;
 use OCP\IRequest;
 use OCA\TemplateEditor\MailTemplate;
@@ -72,8 +73,11 @@ class AdminSettingsController extends ApiController {
 	public function resetTemplate( $theme, $template ) {
 		try {
 			$template = new MailTemplate( $theme, $template );
-			$template->reset();
-			return new JSONResponse();
+			if ($template->reset()) {
+				return new JSONResponse();
+			} else {
+				return new JSONResponse([], Http::STATUS_INTERNAL_SERVER_ERROR);
+			}
 		} catch (\Exception $ex) {
 			return new JSONResponse(array('message' => $ex->getMessage()), $ex->getCode());
 		}

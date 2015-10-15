@@ -128,7 +128,7 @@ class MailTemplate extends \OC_Template {
 					return true;
 				}
 			}
-			return false;
+			return !file_exists($absolutePath);
 		}
 		throw new NotPermittedException('Template not editable.', 403);
 	}
