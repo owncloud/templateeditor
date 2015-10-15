@@ -49,11 +49,9 @@ $(document).ready(function() {
 				OC.generateUrl('apps/templateeditor/settings/mailtemplate'),
 				{ theme: theme, template: template, content: content }
 			).done(function() {
-				var data = { status:'success', data:{message:t('templateeditor', 'Saved')} };
-				OC.msg.finishedSaving('#mts-msg', data);
+				OC.msg.finishedSuccess('#mts-msg', t('templateeditor', 'Saved'));
 			}).fail(function(result) {
-				var data = { status: 'error', data:{message:result.responseJSON.message} };
-				OC.msg.finishedSaving('#mts-msg', data);
+				OC.msg.finishedError('#mts-msg', result.responseJSON.message);
 			});
 		}
 	);
@@ -68,16 +66,14 @@ $(document).ready(function() {
 				url: OC.generateUrl('apps/templateeditor/settings/mailtemplate'),
 				data: { theme: theme, template: template }
 			}).done(function() {
-				var data = { status:'success', data:{message:t('files_sharing', 'Reset')} };
-				OC.msg.finishedSaving('#mts-msg', data);
+				OC.msg.finishedSuccess('#mts-msg', t('files_sharing', 'Reset'));
 
 				// load default template
 				var theme = $( '#mts-theme' ).val();
 				var template = $( '#mts-template' ).val();
 				loadTemplate(theme, template);
 			}).fail(function(result) {
-				var data = { status: 'error', data:{message:result.responseJSON.message} };
-				OC.msg.finishedSaving('#mts-msg', data);
+				OC.msg.finishedError('#mts-msg', t('files_sharing', 'An error occurred'));
 			});
 		}
 	);
