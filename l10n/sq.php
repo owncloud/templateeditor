@@ -1,5 +1,18 @@
 <?php
 $TRANSLATIONS = array(
-"Save" => "Ruaj"
+"Could not load template" => "S’u ngarkua dot gjedhja",
+"Saved" => "U ruajt",
+"Reset" => "Ricaktoje",
+"Sharing email (HTML)" => "Email ndarjesh  (HTML)",
+"Sharing email (plain text fallback)" => "Email ndarjesh (tekst i thjeshtë, kur s’ka tjetër mundësi)",
+"Lost password mail" => "Email për humbje fjalëkalimi",
+"New user email (HTML)" => "Email mbi përdorues të ri (HTML)",
+"New user email (plain text fallback)" => "Emailmbi përdorues të ri (tekst i thjeshtë, kur s’ka tjetër mundësi)",
+"Activity notification mail" => "Email njoftimi veprimtarie",
+"Mail Templates" => "Gjedhe Email-i",
+"Theme" => "Temë",
+"Template" => "Gjedhe",
+"Please choose a template" => "Ju lutemi, zgjidhni një gjedhe",
+"Save" => "Ruaje"
 );
 $PLURAL_FORMS = "nplurals=2; plural=(n != 1);";
