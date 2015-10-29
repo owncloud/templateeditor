@@ -164,8 +164,10 @@ class MailTemplate extends \OC_Template {
 	public static function getEditableTemplates() {
 		$l10n = \OC_L10N::get('templateeditor');
 		$templates = array(
-			'core/templates/mail.php' => $l10n->t('Sharing email (HTML)'),
-			'core/templates/altmail.php' => $l10n->t('Sharing email (plain text fallback)'),
+			'core/templates/mail.php' => $l10n->t('Sharing email - public link shares (HTML)'),
+			'core/templates/altmail.php' => $l10n->t('Sharing email - public link shares (plain text fallback)'),
+			'core/templates/internalmail.php' => $l10n->t('Sharing email (HTML)'),
+			'core/templates/internalaltmail.php' => $l10n->t('Sharing email (plain text fallback)'),
 			'core/lostpassword/templates/email.php' => $l10n->t('Lost password mail'),
 			'settings/templates/email.new_user.php' => $l10n->t('New user email (HTML)'),
 			'settings/templates/email.new_user_plain_text.php' => $l10n->t('New user email (plain text fallback)'),
