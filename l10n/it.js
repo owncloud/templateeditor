@@ -4,6 +4,8 @@ OC.L10N.register(
     "Could not load template" : "Impossibile caricare il modello",
     "Saved" : "Salvato",
     "Reset" : "Ripristina",
+    "Sharing email - public link shares (HTML)" : "Messaggio di condivisione - condivisioni di collegamenti pubblici (HTML)",
+    "Sharing email - public link shares (plain text fallback)" : "Messaggio di condivisione - condivisioni di collegamenti pubblici (testo semplice)",
     "Sharing email (HTML)" : "Messaggio di condivisione (HTML)",
     "Sharing email (plain text fallback)" : "Messaggio di condivisione (testo semplice)",
     "Lost password mail" : "Messaggio per recupero password",
