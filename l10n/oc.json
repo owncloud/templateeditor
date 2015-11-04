@@ -2,6 +2,8 @@
     "Could not load template" : "Impossible de cargar lo modèl",
     "Saved" : "Salvat",
     "Reset" : "Reïnicializar",
+    "Sharing email - public link shares (HTML)" : "Email de partiment - partiment per ligam public (HTML)",
+    "Sharing email - public link shares (plain text fallback)" : "Email de partiment - partiment per ligam public (version tèxte simple alternativa)",
     "Sharing email (HTML)" : "Email de partiment (HTML)",
     "Sharing email (plain text fallback)" : "Email de partiment (version tèxte simple alternativa)",
     "Lost password mail" : "Messatge mandat en cas de pèrda del senhal",

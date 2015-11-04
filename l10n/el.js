@@ -4,6 +4,8 @@ OC.L10N.register(
     "Could not load template" : "Αδυναμία φόρτωσης προτύπου",
     "Saved" : "Αποθηκεύτηκαν",
     "Reset" : "Επαναφορά",
+    "Sharing email - public link shares (HTML)" : "Διαμοιρασμός ηλεκτρονικού ταχυδρομείου - διαμοιρασμός δημόσιων συνδέσμων (HTML)",
+    "Sharing email - public link shares (plain text fallback)" : "Διαμοιρασμός ηλεκτρονικού ταχυδρομείου - διαμοιρασμός δημόσιων συνδέσμων (εναλλακτική απλού κειμένου)",
     "Sharing email (HTML)" : "Διαμοιρασμός ηλεκτρονικού ταχυδρομείου (HTML)",
     "Sharing email (plain text fallback)" : "Διαμοιρασμός ηλεκτρονικού ταχυδρομείου (εφεδρικό απλού κειμένου)",
     "Lost password mail" : "Μήνυμα χαμένου κωδικού πρόσβασης",
