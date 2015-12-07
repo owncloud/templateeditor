@@ -63,7 +63,7 @@ class MailTemplate extends \OC_Template {
 		if($this->isEditable()) {
 			list($app, $filename) = explode('/templates/', $this->path, 2);
 			$name = substr($filename, 0, -4);
-			list(, $template) = $this->findTemplate($this->theme, $app, $name, '');
+			list(, $template) = $this->findTemplate($this->theme, $app, $name);
 			return new MailTemplateResponse($template);
 		}
 		throw new SecurityException('Template not editable.', 403);
@@ -73,7 +73,7 @@ class MailTemplate extends \OC_Template {
 		if($this->isEditable()) {
 			list($app, $filename) = explode('/templates/', $this->path, 2);
 			$name = substr($filename, 0, -4);
-			list(, $template) = $this->findTemplate($this->theme, $app, $name, '');
+			list(, $template) = $this->findTemplate($this->theme, $app, $name);
 			\OC_Response::sendFile($template);
 		} else {
 			throw new SecurityException('Template not editable.', 403);
@@ -124,9 +124,11 @@ class MailTemplate extends \OC_Template {
 					if (rename($absolutePath.'.bak', $absolutePath)) {
 						return true;
 					}
+				} else if (unlink($absolutePath)) {
+					return true;
 				}
 			}
-			return false;
+			return !file_exists($absolutePath);
 		}
 		throw new NotPermittedException('Template not editable.', 403);
 	}
