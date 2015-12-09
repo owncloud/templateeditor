@@ -4,6 +4,7 @@ OC.L10N.register(
     "Could not load template" : "Šablónu nemožno nahrať",
     "Saved" : "Uložené",
     "Reset" : "Resetovať",
+    "An error occurred" : "Nastala chyba",
     "Sharing email (HTML)" : "Zdieľať email (HTML)",
     "Sharing email (plain text fallback)" : "Zdieľať email (len jednoduchý text)",
     "Lost password mail" : "Email so zabudnutým heslom",

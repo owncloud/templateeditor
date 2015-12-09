@@ -3,6 +3,7 @@ $TRANSLATIONS = array(
 "Could not load template" => "Tidak dapat memuat templat",
 "Saved" => "Disimpan",
 "Reset" => "Atur Ulang",
+"An error occurred" => "Terjadi kesalahan",
 "Sharing email (HTML)" => "Berbagi email (HTML)",
 "Sharing email (plain text fallback)" => "Berbagi email (teks biasa)",
 "Lost password mail" => "Kehilangan sandi email",

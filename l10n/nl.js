@@ -4,6 +4,7 @@ OC.L10N.register(
     "Could not load template" : "Kon sjabloon niet laden",
     "Saved" : "Bewaard",
     "Reset" : "Reset",
+    "An error occurred" : "Er heeft zich een fout voorgedaan",
     "Sharing email - public link shares (HTML)" : "Delen e-mail - openbare links delen (HTML)",
     "Sharing email - public link shares (plain text fallback)" : "Delen e-mail - openbare links delen (terugval op kale tekst)",
     "Sharing email (HTML)" : "Delen e-mail (HTML)",

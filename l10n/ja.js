@@ -4,6 +4,7 @@ OC.L10N.register(
     "Could not load template" : "テンプレートを読み出せませんでした",
     "Saved" : "保存されました",
     "Reset" : "リセット",
+    "An error occurred" : "エラーが発生しました",
     "Sharing email - public link shares (HTML)" : "共有メール - 公開共有リンク(HTML)",
     "Sharing email - public link shares (plain text fallback)" : "共有メール - 公開共有リンク (プレーンテキスト)",
     "Sharing email (HTML)" : "共有メール (HTML)",

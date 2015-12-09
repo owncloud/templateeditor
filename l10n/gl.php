@@ -3,6 +3,7 @@ $TRANSLATIONS = array(
 "Could not load template" => "Non foi posíbel cargar o modelo",
 "Saved" => "Gardado",
 "Reset" => "Restabelecer",
+"An error occurred" => "Produciuse un erro",
 "Sharing email (HTML)" => "Compartir por correo (HTML)",
 "Sharing email (plain text fallback)" => "Compartir por correo (texto simple de reserva)",
 "Lost password mail" => "Correo de contrasinal perdido",

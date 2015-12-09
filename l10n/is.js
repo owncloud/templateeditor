@@ -4,6 +4,7 @@ OC.L10N.register(
     "Could not load template" : "Gat ekki hlaðið sniðmáta",
     "Saved" : "Vistað",
     "Reset" : "Endurstilla",
+    "An error occurred" : "Villa kom upp",
     "Sharing email (HTML)" : "Deila tölvupósti (HTML)",
     "Sharing email (plain text fallback)" : "Deila tölvupóstfangi (einfaldur texti sjálfgefið)",
     "Lost password mail" : "Týnd lykilorð póstur",

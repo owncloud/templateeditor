@@ -4,6 +4,7 @@ OC.L10N.register(
     "Could not load template" : "Impossible de charger le modèle",
     "Saved" : "Sauvegardé",
     "Reset" : "Réinitialiser",
+    "An error occurred" : "Une erreur est survenue",
     "Sharing email - public link shares (HTML)" : "Email de partage - partage par lien public (HTML)",
     "Sharing email - public link shares (plain text fallback)" : "Email de partage - partage par lien public (version texte simple alternative)",
     "Sharing email (HTML)" : "Email de partage (HTML)",

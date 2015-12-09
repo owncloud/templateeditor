@@ -3,6 +3,7 @@ $TRANSLATIONS = array(
 "Could not load template" => "A sablont nem sikerült betölteni",
 "Saved" => "Elmentve!",
 "Reset" => "Visszaállítás",
+"An error occurred" => "Hiba történt",
 "Sharing email - public link shares (HTML)" => "Megosztás - nyilvános hivatkozás megosztás (HTML)",
 "Sharing email - public link shares (plain text fallback)" => "Megosztás - nyilvános hivatkozás megosztás (egyszerű szöveg)",
 "Sharing email (HTML)" => "Megosztás (HTML)",

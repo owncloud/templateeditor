@@ -4,6 +4,7 @@ OC.L10N.register(
     "Could not load template" : "Ei suutnud malli laadida",
     "Saved" : "Salvestatud",
     "Reset" : "Algseaded",
+    "An error occurred" : "Tekkis viga",
     "Sharing email (HTML)" : "E-kirjaga jagamine (HTML)",
     "Sharing email (plain text fallback)" : "E-kirjaga jagamine (lihttekstina)",
     "Lost password mail" : "Unustatud parooli kiri",

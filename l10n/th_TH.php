@@ -3,6 +3,7 @@ $TRANSLATIONS = array(
 "Could not load template" => "ไม่สามารถโหลดแม่แบบ",
 "Saved" => "บันทึกแล้ว",
 "Reset" => "ตั้งค่าใหม่",
+"An error occurred" => "เกิดข้อผิดพลาดบางประการ",
 "Sharing email - public link shares (HTML)" => "ใช้งานอีเมลร่วมกัน - กำลังแชร์ลิงค์สาธารณะ (HTML)",
 "Sharing email - public link shares (plain text fallback)" => "ใช้งานอีเมลร่วมกัน - กำลังแชร์ลิงค์สาธารณะ (ข้อความธรรมดา)",
 "Sharing email (HTML)" => "แชร์อีเมล (HTML)",

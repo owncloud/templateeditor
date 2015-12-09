@@ -4,6 +4,7 @@ OC.L10N.register(
     "Could not load template" : "Неможливо завантажити шаблон",
     "Saved" : "Збереженно",
     "Reset" : "Перевстановити",
+    "An error occurred" : "Виникла помилка",
     "Sharing email (HTML)" : "Загальний доступ (HTML)",
     "Sharing email (plain text fallback)" : "Загальний доступ (звичайний текст)",
     "Lost password mail" : "Відновлення пароля",

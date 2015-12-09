@@ -4,6 +4,7 @@ OC.L10N.register(
     "Could not load template" : "Ni mogoče naložiti predloge",
     "Saved" : "Shranjeno",
     "Reset" : "Ponastavi",
+    "An error occurred" : "Prišlo je do napake",
     "Sharing email (HTML)" : "Souporaba elektronske pošte (HTML)",
     "Sharing email (plain text fallback)" : "Souporaba elektronske pošte (neoblikovano besedilo)",
     "Lost password mail" : "Elektronsko sporočilo za pozabljeno geslo",

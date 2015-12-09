@@ -4,6 +4,7 @@ OC.L10N.register(
     "Could not load template" : "Şablon yüklenemedi",
     "Saved" : "Kaydedildi",
     "Reset" : "Sıfırla",
+    "An error occurred" : "Bir hata oluştu",
     "Sharing email - public link shares (HTML)" : "e-posta paylaşımı - umumi bağlantı paylaşımları (HTML)",
     "Sharing email - public link shares (plain text fallback)" : "e-posta paylaşımı - umumi bağlantı paylaşımları (plain text)",
     "Sharing email (HTML)" : "Paylaşma e-postası (HTML)",

@@ -3,6 +3,7 @@ $TRANSLATIONS = array(
 "Could not load template" => "Не могу да учитам шаблон",
 "Saved" => "Сачувано",
 "Reset" => "Ресетуј",
+"An error occurred" => "Дошло је до грешке",
 "Sharing email (HTML)" => "Порука о дељењу (ХТМЛ)",
 "Sharing email (plain text fallback)" => "Порука о дељењу (спадање на обичан текст)",
 "Lost password mail" => "Порука заборављене лозинке",

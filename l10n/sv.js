@@ -4,6 +4,7 @@ OC.L10N.register(
     "Could not load template" : "Kunde inte ladda mall",
     "Saved" : "Sparad",
     "Reset" : "Återställ",
+    "An error occurred" : "Ett fel uppstod",
     "Sharing email (HTML)" : "Delningsmail (HTML)",
     "Sharing email (plain text fallback)" : "Delningsmail (ren text som reservalternativ)",
     "Lost password mail" : "Glömt lösenord-mail",

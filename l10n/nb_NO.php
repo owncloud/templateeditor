@@ -3,6 +3,7 @@ $TRANSLATIONS = array(
 "Could not load template" => "Klarte ikke å laste mal",
 "Saved" => "Lagret",
 "Reset" => "Tilbakestill",
+"An error occurred" => "En feil har oppstått",
 "Sharing email (HTML)" => "Delings-epost (HTML)",
 "Sharing email (plain text fallback)" => "Delings-epost (ren tekst)",
 "Lost password mail" => "E-post om mistet passord",

@@ -3,6 +3,7 @@ $TRANSLATIONS = array(
 "Could not load template" => "No s'ha pogut carregar la plantilla",
 "Saved" => "Desat",
 "Reset" => "Estableix de nou",
+"An error occurred" => "S'ha produït un error",
 "Sharing email (HTML)" => "Compartir correu electrònic (HTML)",
 "Sharing email (plain text fallback)" => "Comparteir correu electrònic ( text pla )",
 "Lost password mail" => "Correu de pèrdua de contrasenya",

@@ -3,6 +3,7 @@ $TRANSLATIONS = array(
 "Could not load template" => "Nie można załadować szablonu",
 "Saved" => "Zapisano",
 "Reset" => "Resetuj",
+"An error occurred" => "Wystąpił błąd",
 "Sharing email (HTML)" => "Email o udostępnieniu (HTML)",
 "Sharing email (plain text fallback)" => "Email o udostępnieniu (czysty tekst)",
 "Lost password mail" => "Wiadomość o resetowaniu hasła",

@@ -4,6 +4,7 @@ OC.L10N.register(
     "Could not load template" : "Šablonu nelze nahrát",
     "Saved" : "Uloženo",
     "Reset" : "Restartovat složku",
+    "An error occurred" : "Nastala chyba",
     "Sharing email - public link shares (HTML)" : "Email o sdílení - sdíleno veřejným odkazem (HTML)",
     "Sharing email - public link shares (plain text fallback)" : "Email o sdílení - sdíleno veřejným odkazem (čistý text)",
     "Sharing email (HTML)" : "Sdílet email (HTML)",
