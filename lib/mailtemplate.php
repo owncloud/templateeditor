@@ -164,7 +164,7 @@ class MailTemplate extends \OC_Template {
 	 * @return array with keys containing the path and values containing the name of a template
 	 */
 	public static function getEditableTemplates() {
-		$l10n = \OC_L10N::get('templateeditor');
+		$l10n = \OC::$server->getL10NFactory()->get('templateeditor');
 		$templates = array(
 			'core/templates/mail.php' => $l10n->t('Sharing email - public link shares (HTML)'),
 			'core/templates/altmail.php' => $l10n->t('Sharing email - public link shares (plain text fallback)'),
