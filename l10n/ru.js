@@ -5,6 +5,8 @@ OC.L10N.register(
     "Saved" : "Сохранено",
     "Reset" : "Сброс",
     "An error occurred" : "Произошла ошибка",
+    "Sharing email - public link shares (HTML)" : "Письмо об открытии общего доступа  - публичные ссылки доступа (HTML)",
+    "Sharing email - public link shares (plain text fallback)" : "Письмо об открытии общего доступа  - публичные ссылки доступа (простой текст)",
     "Sharing email (HTML)" : "Письмо об открытии общего доступа (HTML)",
     "Sharing email (plain text fallback)" : "Письмо об открытии общего доступа (простой текст)",
     "Lost password mail" : "Письмо восстановления пароля",
