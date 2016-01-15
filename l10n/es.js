@@ -5,6 +5,8 @@ OC.L10N.register(
     "Saved" : "Guardado",
     "Reset" : "Restablecer",
     "An error occurred" : "Ocurrió un error",
+    "Sharing email - public link shares (HTML)" : "Compartir por correo electrónico - compartir enlace público (HTML) ",
+    "Sharing email - public link shares (plain text fallback)" : "Compartir por correo electrónico - compartir enlace público (texto plano)",
     "Sharing email (HTML)" : "Compartir correo electrónico (HTML)",
     "Sharing email (plain text fallback)" : "Compartir correo electrónico (texto plano)",
     "Lost password mail" : "Correo electrónico - contraseña perdida",
