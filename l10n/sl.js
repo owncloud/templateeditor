@@ -5,6 +5,8 @@ OC.L10N.register(
     "Saved" : "Shranjeno",
     "Reset" : "Ponastavi",
     "An error occurred" : "Prišlo je do napake",
+    "Sharing email - public link shares (HTML)" : "Elektronsko sporočilo souporabe - javne povezave za souporabo (HTML)",
+    "Sharing email - public link shares (plain text fallback)" : "Elektronsko sporočilo souporabe - javne povezave za souporabo (neoblikovano besedilo)",
     "Sharing email (HTML)" : "Souporaba elektronske pošte (HTML)",
     "Sharing email (plain text fallback)" : "Souporaba elektronske pošte (neoblikovano besedilo)",
     "Lost password mail" : "Elektronsko sporočilo za pozabljeno geslo",
