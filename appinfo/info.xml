@@ -7,6 +7,7 @@ While it is possible to manually change email templates within ownCloud, this ap
 </description>
 	<licence>AGPL</licence>
 	<author>Jörn Dreyer</author>
+	<version>0.1</version>
 	<dependencies>
 		<owncloud min-version="9.0" max-version="9.0" />
 	</dependencies>
