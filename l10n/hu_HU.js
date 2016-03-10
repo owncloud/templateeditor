@@ -16,7 +16,7 @@ OC.L10N.register(
     "Mail Templates" : "E-mail sablonok",
     "Theme" : "Téma",
     "Template" : "Sablon",
-    "Please choose a template" : "Kérlek válassz egy sablont!",
+    "Please choose a template" : "Kérjük válasszon egy sablont!",
     "Save" : "Mentés"
 },
 "nplurals=2; plural=(n != 1);");
