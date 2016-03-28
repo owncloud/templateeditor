@@ -5,6 +5,8 @@ OC.L10N.register(
     "Saved" : "Gemt",
     "Reset" : "Nulstil",
     "An error occurred" : "Der opstod en fejl",
+    "Sharing email - public link shares (HTML)" : "Deling af e-mail - offentlig deling af links (HTML)",
+    "Sharing email - public link shares (plain text fallback)" : "Deling af e-mail - offentlig deling af links (simpel tekstudgave)",
     "Sharing email (HTML)" : "E-mail for deling (HTML)",
     "Sharing email (plain text fallback)" : "E-mail for deling (ren tekst ved tilbagefald)",
     "Lost password mail" : "Mail for mistet kodeord",
