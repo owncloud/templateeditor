@@ -13,4 +13,11 @@ While it is possible to manually change email templates within ownCloud, this ap
 	</dependencies>
 	<shipped>true</shipped>
 	<default_enable/>
+	<documentation>
+		<admin>https://doc.owncloud.org/server/9.1/admin_manual/configuration_server/email_configuration.html?highlight=template#using-email-templates</admin>
+		<developer>https://doc.owncloud.org/missing</developer>
+	</documentation>
+	<website>https://github.com/owncloud/templateeditor</website>
+	<bugs>https://github.com/owncloud/templateeditor/issues</bugs>
+	<repository type="git">https://github.com/owncloud/templateeditor.git</repository>
 </info>
