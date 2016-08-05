@@ -5,6 +5,8 @@ OC.L10N.register(
     "Saved" : "Zapisano",
     "Reset" : "Resetuj",
     "An error occurred" : "Wystąpił błąd",
+    "Sharing email - public link shares (HTML)" : "Email o udostępnieniu - publicznie dostępne odnośniki do udziałów (HTML)",
+    "Sharing email - public link shares (plain text fallback)" : "Email o udostępnieniu - publicznie dostępne odnośniki do udziałów (metoda awaryjna - czysty tekst)",
     "Sharing email (HTML)" : "Email o udostępnieniu (HTML)",
     "Sharing email (plain text fallback)" : "Email o udostępnieniu (czysty tekst)",
     "Lost password mail" : "Wiadomość o resetowaniu hasła",
