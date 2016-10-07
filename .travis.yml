@@ -1,9 +1,7 @@
 language: php
 php:
-  - 5.4
-  - 5.5
   - 5.6
-  - 7
+  - 7.0
 
 env:
   global:
@@ -34,13 +32,4 @@ script:
   # - php ocular.phar code-coverage:upload --format=php-clover clover.xml
 
 matrix:
-  include:
-#    - php: 5.4
-#      env: DB=mysql
-#    - php: 5.4
-#      env: DB=pgsql
-#    - php: 5.4
-#      env: DB=oracle
-  allow_failures:
-    - php: hhvm
   fast_finish: true
