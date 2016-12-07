@@ -33,7 +33,7 @@ class MailTemplate extends \OC_Template {
 	private $path;
 
 	/** @var string */
-	private $theme;
+	protected $theme;
 
 	/** @var array */
 	private $editableThemes;
