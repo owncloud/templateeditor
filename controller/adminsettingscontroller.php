@@ -23,6 +23,7 @@
 
 namespace OCA\TemplateEditor\Controller;
 
+use OC\Theme\ThemeService;
 use OCP\AppFramework\ApiController;
 use OCP\AppFramework\Http;
 use OCP\AppFramework\Http\JSONResponse;
@@ -38,11 +39,11 @@ class AdminSettingsController extends ApiController {
 	/**
 	 * @param string $theme
 	 * @param string $template
-	 * @return \OCA\TemplateEditor\Http\MailTemplateResponse
+	 * @return \OCP\AppFramework\Http\Response
 	 */
 	public function renderTemplate( $theme, $template ) {
 		try {
-			$template = new MailTemplate( $theme, $template );
+			$template = $this->getMailTemplate($theme, $template);
 			return $template->getResponse();
 		} catch (\Exception $ex) {
 			return new JSONResponse(array('message' => $ex->getMessage()), $ex->getCode());
@@ -57,7 +58,7 @@ class AdminSettingsController extends ApiController {
 	 */
 	public function updateTemplate( $theme, $template, $content ) {
 		try {
-			$template = new MailTemplate( $theme, $template );
+			$template = $this->getMailTemplate($theme, $template);
 			$template->setContent( $content );
 			return new JSONResponse();
 		} catch (\Exception $ex) {
@@ -72,7 +73,7 @@ class AdminSettingsController extends ApiController {
 	 */
 	public function resetTemplate( $theme, $template ) {
 		try {
-			$template = new MailTemplate( $theme, $template );
+			$template = $this->getMailTemplate($theme, $template);
 			if ($template->reset()) {
 				return new JSONResponse();
 			} else {
@@ -81,6 +82,19 @@ class AdminSettingsController extends ApiController {
 		} catch (\Exception $ex) {
 			return new JSONResponse(array('message' => $ex->getMessage()), $ex->getCode());
 		}
+	}
+
+	/**
+	 * @param string $themeName
+	 * @param string $template
+	 * @return MailTemplate
+	 */
+	protected function getMailTemplate($themeName, $template){
+		$themeService = new ThemeService($themeName);
+		return new MailTemplate(
+			$themeService->getTheme(),
+			$template
+		);
 	}
 
 }
