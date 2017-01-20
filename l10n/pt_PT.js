@@ -9,7 +9,7 @@ OC.L10N.register(
     "Sharing email - public link shares (plain text fallback)" : "Correio eletrónico da partilha - partilhas de ligação pública (texto simples)",
     "Sharing email (HTML)" : "Partilhar correio eletrónico (HTML)",
     "Sharing email (plain text fallback)" : "Partilhar email (texto sem formatação)",
-    "Lost password mail" : "Perdi a palavra passe do mail",
+    "Lost password mail" : "Perdi a palavra passe do correio",
     "New user email (HTML)" : "Novo email de utilizador (HTML)",
     "New user email (plain text fallback)" : "Novo email de utilizador (texto simples)",
     "Activity notification mail" : "Email de notificação de actividade",
