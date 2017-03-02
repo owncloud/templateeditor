@@ -13,4 +13,7 @@ While it is possible to manually change email templates within ownCloud, this ap
 	</dependencies>
 	<shipped>true</shipped>
 	<default_enable/>
+	<settings>
+		<admin>OCA\TemplateEditor\AdminPanel</admin>
+	</settings>
 </info>
