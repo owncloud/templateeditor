@@ -1,6 +1,11 @@
+<?php
+/** @var $l \OCP\IL10N */
+/** @var $_ array */
+script('templateeditor', 'settings-admin');
+style('templateeditor', 'settings-admin');
+?>
 <div class="section" id="mailTemplateSettings" >
-
-	<h2><?php p($l->t('Mail Templates'));?></h2>
+	<h2 class="app-name"><?php p($l->t('Mail Templates'));?></h2>
 
 	<div class="actions">
 
