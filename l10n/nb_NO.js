@@ -14,7 +14,7 @@ OC.L10N.register(
     "New user email (plain text fallback)" : "E-post om ny bruker (ren tekst)",
     "Activity notification mail" : "E-post med varsling om aktivitet",
     "Mail Templates" : "Maler for e-poster",
-    "Theme" : "Tema",
+    "Theme" : "Drakt",
     "Template" : "Mal",
     "Please choose a template" : "Velg en mal",
     "Save" : "Lagre"
