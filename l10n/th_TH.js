@@ -11,7 +11,7 @@ OC.L10N.register(
     "Sharing email (plain text fallback)" : "แชร์อีเมล (ข้อความธรรมดา)",
     "Lost password mail" : "ลืมรหัสผ่านอีเมล",
     "New user email (HTML)" : "อีเมลของผู้ใช้ใหม่ (HTML)",
-    "New user email (plain text fallback)" : "อีเมลของผู้ใช้ใหม่ (ทางเลือกข้อความธรรมดา)",
+    "New user email (plain text fallback)" : "อีเมลของผู้ใช้ใหม่ (ข้อความธรรมดา)",
     "Activity notification mail" : "อีเมลแจ้งเตือนกิจกรรม",
     "Mail Templates" : "เทมเพลตของอีเมล",
     "Theme" : "ธีม",
