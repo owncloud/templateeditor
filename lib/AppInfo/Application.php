@@ -1,5 +1,4 @@
 <?php
-
 /**
  * ownCloud - Template Editor
  *
@@ -21,25 +20,31 @@
  *
  */
 
-namespace OCA\TemplateEditor\App;
+namespace OCA\TemplateEditor\AppInfo;
 
-use OCP\AppFramework\App;
 use OCA\TemplateEditor\Controller\AdminSettingsController;
+use OCA\TemplateEditor\TemplateEditor;
+use OCP\AppFramework\App;
 
-class TemplateEditor extends App {
+class Application extends App {
 
-	public function __construct(array $urlParams=array()){
+	/**
+	 * @param array $urlParams
+	 */
+	public function __construct(array $urlParams = []) {
 		parent::__construct('templateeditor', $urlParams);
 
 		$container = $this->getContainer();
 
-		/**
-		 * Controllers
-		 */
+		$container->registerService('TemplateEditor', function ($container) {
+			return new TemplateEditor($container->query('ThemeService'));
+		});
+
 		$container->registerService('AdminSettingsController', function($c) {
 			return new AdminSettingsController(
 				$c->query('AppName'),
-				$c->query('Request')
+				$c->query('Request'),
+				$c->query('TemplateEditor')
 			);
 		});
 	}

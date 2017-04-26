@@ -53,5 +53,4 @@ class MailTemplateResponse extends Response {
 	public function render(){
 		return file_get_contents($this->filename);
 	}
-
 }

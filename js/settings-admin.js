@@ -9,7 +9,7 @@ $(document).ready(function() {
 		$( '#mailTemplateSettings .templateEditor + .actions:hidden').show(400);
 		$.get(
 			OC.generateUrl('apps/templateeditor/settings/mailtemplate'),
-			{ theme: theme, template: template }
+			{ themeName: theme, template: template }
 		).done(function( result ) {
 			$( '#mailTemplateSettings textarea' ).val(result);
 		}).fail(function( result ) {
