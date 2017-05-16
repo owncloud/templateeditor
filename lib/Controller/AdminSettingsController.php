@@ -68,7 +68,6 @@ class AdminSettingsController extends ApiController {
 	 */
 	public function updateTemplate($theme, $template, $content) {
 		try {
-			// TODO: throw new SecurityException('Template not editable.', 403); if template not editable
 			$template = $this->templateEditor->getMailTemplate($theme, $template);
 			$template->setContent($content);
 			return new JSONResponse();

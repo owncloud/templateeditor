@@ -22,9 +22,8 @@
 
 namespace OCA\TemplateEditor;
 
-use OC\Theme\Theme;
+use OCP\Theme\Theme;
 use OCA\TemplateEditor\Http\MailTemplateResponse;
-use OC\AppFramework\Middleware\Security\Exceptions\SecurityException;
 
 class MailTemplate extends \OC_Template {
 
@@ -42,7 +41,6 @@ class MailTemplate extends \OC_Template {
 	
 	/**
 	 * @return \OCA\TemplateEditor\Http\MailTemplateResponse
-	 * @throws SecurityException
 	 */
 	public function getResponse() {
 		$template = $this->getTemplateDetails();
