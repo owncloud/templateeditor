@@ -20,22 +20,22 @@
  */
 namespace OCA\TemplateEditor;
 
-use OCP\Theme\ThemeService;
 use OCP\App;
+use OCP\Theme\IThemeService;
 
 class TemplateEditor {
 
 	/**
-	 * @var ThemeService
+	 * @var IThemeService
 	 */
 	private $themeService;
 
 	/**
 	 * TemplateEditor constructor.
 	 *
-	 * @param ThemeService $themeService
+	 * @param IThemeService $themeService
 	 */
-	public function __construct(ThemeService $themeService) {
+	public function __construct(IThemeService $themeService) {
 		$this->themeService = $themeService;
 	}
 

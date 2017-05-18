@@ -22,7 +22,7 @@
 
 namespace OCA\TemplateEditor;
 
-use OCP\Theme\Theme;
+use OCP\Theme\ITheme;
 use OCA\TemplateEditor\Http\MailTemplateResponse;
 
 class MailTemplate extends \OC_Template {
@@ -31,10 +31,10 @@ class MailTemplate extends \OC_Template {
 	private $path;
 
 	/**
-	 * @param Theme $theme
+	 * @param ITheme $theme
 	 * @param string $path
 	 */
-	public function __construct(Theme $theme, $path) {
+	public function __construct(ITheme $theme, $path) {
 		$this->theme = $theme;
 		$this->path = $path;
 	}

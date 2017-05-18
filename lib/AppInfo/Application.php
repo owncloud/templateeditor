@@ -22,9 +22,11 @@
 
 namespace OCA\TemplateEditor\AppInfo;
 
+use OCA\TemplateEditor\AdminPanel;
 use OCA\TemplateEditor\Controller\AdminSettingsController;
 use OCA\TemplateEditor\TemplateEditor;
 use OCP\AppFramework\App;
+use OCP\AppFramework\IAppContainer;
 
 class Application extends App {
 
@@ -36,15 +38,15 @@ class Application extends App {
 
 		$container = $this->getContainer();
 
-		$container->registerService('TemplateEditor', function ($container) {
+		$container->registerService('TemplateEditor', function (IAppContainer $container) {
 			return new TemplateEditor($container->query('ThemeService'));
 		});
 
-		$container->registerService('AdminSettingsController', function($c) {
+		$container->registerService('AdminSettingsController', function(IAppContainer $container) {
 			return new AdminSettingsController(
-				$c->query('AppName'),
-				$c->query('Request'),
-				$c->query('TemplateEditor')
+				$container->query('AppName'),
+				$container->query('Request'),
+				$container->query('TemplateEditor')
 			);
 		});
 	}
