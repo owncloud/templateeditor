@@ -5,6 +5,8 @@ OC.L10N.register(
     "Saved" : "Salvestatud",
     "Reset" : "Algseaded",
     "An error occurred" : "Tekkis viga",
+    "Sharing email - public link shares (HTML)" : "E-kirjaga jagamine - avalik linkide jagamine (HTML)",
+    "Sharing email - public link shares (plain text fallback)" : "E-kirjaga jagamine - avalik linkide jagamine (lihttekstina)",
     "Sharing email (HTML)" : "E-kirjaga jagamine (HTML)",
     "Sharing email (plain text fallback)" : "E-kirjaga jagamine (lihttekstina)",
     "Lost password mail" : "Unustatud parooli kiri",
