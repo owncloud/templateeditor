@@ -7,12 +7,11 @@ While it is possible to manually change email templates within ownCloud, this ap
 </description>
 	<licence>AGPL</licence>
 	<author>Jörn Dreyer</author>
-	<version>0.1</version>
+	<version>0.2</version>
 	<namespace>TemplateEditor</namespace>
 	<dependencies>
-		<owncloud min-version="10.0" max-version="10.0" />
+		<owncloud min-version="10.0.3" max-version="10.0.99" />
 	</dependencies>
-	<shipped>true</shipped>
 	<default_enable/>
 	<settings>
 		<admin>OCA\TemplateEditor\AdminPanel</admin>
