@@ -73,7 +73,7 @@ class AdminSettingsController extends ApiController {
 			$template->setContent($content);
 			return new JSONResponse();
 		} catch (\Exception $ex) {
-			return new JSONResponse(array('message' => $ex->getMessage()), $ex->getCode());
+			return new JSONResponse(['message' => $ex->getMessage()], $ex->getCode());
 		}
 	}
 
@@ -91,7 +91,7 @@ class AdminSettingsController extends ApiController {
 				return new JSONResponse([], Http::STATUS_INTERNAL_SERVER_ERROR);
 			}
 		} catch (\Exception $ex) {
-			return new JSONResponse(array('message' => $ex->getMessage()), $ex->getCode());
+			return new JSONResponse(['message' => $ex->getMessage()], $ex->getCode());
 		}
 	}
 }

@@ -23,7 +23,6 @@
 
 namespace OCA\TemplateEditor\AppInfo;
 
-use OCA\TemplateEditor\AdminPanel;
 use OCA\TemplateEditor\Controller\AdminSettingsController;
 use OCA\TemplateEditor\TemplateEditor;
 use OCP\AppFramework\App;
