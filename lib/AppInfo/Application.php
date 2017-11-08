@@ -2,8 +2,9 @@
 /**
  * ownCloud - Template Editor
  *
- * @author Jörn Dreyer
- * @copyright 2014 Jörn Dreyer <jfd@owncloud.com>
+ * @author Jörn Dreyer <jfd@owncloud.com>
+ * @copyright Copyright (c) 2017, ownCloud GmbH
+ * @license AGPL-3.0
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU AFFERO GENERAL PUBLIC LICENSE
