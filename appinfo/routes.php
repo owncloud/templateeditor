@@ -22,7 +22,9 @@
  */
 
 return [
-	['name' => 'admin_settings#renderTemplate', 'url' => '/settings/mailtemplate', 'verb' => 'GET'],
-	['name' => 'admin_settings#updateTemplate', 'url' => '/settings/mailtemplate', 'verb' => 'POST'],
-	['name' => 'admin_settings#resetTemplate', 'url' => '/settings/mailtemplate', 'verb' => 'DELETE'],
+	'routes' => [
+		['name' => 'adminSettings#renderTemplate', 'url' => '/settings/mailtemplate', 'verb' => 'GET'],
+		['name' => 'adminSettings#updateTemplate', 'url' => '/settings/mailtemplate', 'verb' => 'POST'],
+		['name' => 'adminSettings#resetTemplate', 'url' => '/settings/mailtemplate', 'verb' => 'DELETE'],
+	]
 ];
