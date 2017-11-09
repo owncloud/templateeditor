@@ -44,10 +44,14 @@ class TemplateEditor {
 	 */
 	public function getAllThemeNames() {
 		$themes = $this->themeService->getAllThemes();
+		
 		$themeNames = [];
-
 		foreach ($themes as $theme) {
-			$themeNames[] = $theme->getName();
+			$themeName = $theme->getName();
+			if (is_array(App::getAppInfo($themeName)) && !App::isEnabled($themeName)) {
+				continue;
+			}
+			$themeNames[] = $themeName;
 		}
 		return $themeNames;
 	}
