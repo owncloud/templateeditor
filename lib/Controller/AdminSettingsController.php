@@ -1,10 +1,10 @@
 <?php
-
 /**
  * ownCloud - Template Editor
  *
- * @author Jörn Dreyer
- * @copyright 2014 Jörn Dreyer <jfd@owncloud.com>
+ * @author Jörn Dreyer <jfd@owncloud.com>
+ * @copyright Copyright (c) 2017, ownCloud GmbH
+ * @license AGPL-3.0
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU AFFERO GENERAL PUBLIC LICENSE
@@ -23,30 +23,41 @@
 
 namespace OCA\TemplateEditor\Controller;
 
-use OC\Theme\ThemeService;
+use OCA\TemplateEditor\TemplateEditor;
 use OCP\AppFramework\ApiController;
 use OCP\AppFramework\Http;
 use OCP\AppFramework\Http\JSONResponse;
 use OCP\IRequest;
-use OCA\TemplateEditor\MailTemplate;
 
 class AdminSettingsController extends ApiController {
 
-	public function __construct($appName, IRequest $request) {
+	/**
+	 * @var TemplateEditor
+	 */
+	private $templateEditor;
+
+	/**
+	 * @param string $appName
+	 * @param IRequest $request
+	 * @param TemplateEditor $templateEditor
+	 */
+	public function __construct($appName, IRequest $request, TemplateEditor $templateEditor) {
 		parent::__construct($appName, $request);
+
+		$this->templateEditor = $templateEditor;
 	}
 
 	/**
-	 * @param string $theme
+	 * @param string $themeName
 	 * @param string $template
 	 * @return \OCP\AppFramework\Http\Response
 	 */
-	public function renderTemplate( $theme, $template ) {
+	public function renderTemplate($themeName, $template) {
 		try {
-			$template = $this->getMailTemplate($theme, $template);
+			$template = $this->templateEditor->getMailTemplate($themeName, $template);
 			return $template->getResponse();
 		} catch (\Exception $ex) {
-			return new JSONResponse(array('message' => $ex->getMessage()), $ex->getCode());
+			return new JSONResponse(['message' => $ex->getMessage()], $ex->getCode());
 		}
 	}
 
@@ -56,13 +67,13 @@ class AdminSettingsController extends ApiController {
 	 * @param string $content
 	 * @return JSONResponse
 	 */
-	public function updateTemplate( $theme, $template, $content ) {
+	public function updateTemplate($theme, $template, $content) {
 		try {
-			$template = $this->getMailTemplate($theme, $template);
-			$template->setContent( $content );
+			$template = $this->templateEditor->getMailTemplate($theme, $template);
+			$template->setContent($content);
 			return new JSONResponse();
 		} catch (\Exception $ex) {
-			return new JSONResponse(array('message' => $ex->getMessage()), $ex->getCode());
+			return new JSONResponse(['message' => $ex->getMessage()], $ex->getCode());
 		}
 	}
 
@@ -71,30 +82,16 @@ class AdminSettingsController extends ApiController {
 	 * @param string $template
 	 * @return JSONResponse
 	 */
-	public function resetTemplate( $theme, $template ) {
+	public function resetTemplate($theme, $template) {
 		try {
-			$template = $this->getMailTemplate($theme, $template);
+			$template = $this->templateEditor->getMailTemplate($theme, $template);
 			if ($template->reset()) {
 				return new JSONResponse();
 			} else {
 				return new JSONResponse([], Http::STATUS_INTERNAL_SERVER_ERROR);
 			}
 		} catch (\Exception $ex) {
-			return new JSONResponse(array('message' => $ex->getMessage()), $ex->getCode());
+			return new JSONResponse(['message' => $ex->getMessage()], $ex->getCode());
 		}
 	}
-
-	/**
-	 * @param string $themeName
-	 * @param string $template
-	 * @return MailTemplate
-	 */
-	protected function getMailTemplate($themeName, $template){
-		$themeService = new ThemeService($themeName);
-		return new MailTemplate(
-			$themeService->getTheme(),
-			$template
-		);
-	}
-
 }

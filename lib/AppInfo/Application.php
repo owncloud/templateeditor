@@ -1,10 +1,10 @@
 <?php
-
 /**
  * ownCloud - Template Editor
  *
- * @author Jörn Dreyer
- * @copyright 2014 Jörn Dreyer <jfd@owncloud.com>
+ * @author Jörn Dreyer <jfd@owncloud.com>
+ * @copyright Copyright (c) 2017, ownCloud GmbH
+ * @license AGPL-3.0
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU AFFERO GENERAL PUBLIC LICENSE
@@ -21,25 +21,32 @@
  *
  */
 
-namespace OCA\TemplateEditor\App;
+namespace OCA\TemplateEditor\AppInfo;
 
-use OCP\AppFramework\App;
 use OCA\TemplateEditor\Controller\AdminSettingsController;
+use OCA\TemplateEditor\TemplateEditor;
+use OCP\AppFramework\App;
+use OCP\AppFramework\IAppContainer;
 
-class TemplateEditor extends App {
+class Application extends App {
 
-	public function __construct(array $urlParams=array()){
+	/**
+	 * @param array $urlParams
+	 */
+	public function __construct(array $urlParams = []) {
 		parent::__construct('templateeditor', $urlParams);
 
 		$container = $this->getContainer();
 
-		/**
-		 * Controllers
-		 */
-		$container->registerService('AdminSettingsController', function($c) {
+		$container->registerService('TemplateEditor', function (IAppContainer $container) {
+			return new TemplateEditor($container->query('ThemeService'));
+		});
+
+		$container->registerService('AdminSettingsController', function(IAppContainer $container) {
 			return new AdminSettingsController(
-				$c->query('AppName'),
-				$c->query('Request')
+				$container->query('AppName'),
+				$container->query('Request'),
+				$container->query('TemplateEditor')
 			);
 		});
 	}
