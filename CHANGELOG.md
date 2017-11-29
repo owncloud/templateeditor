@@ -8,33 +8,31 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 ### Added
 
- - App icon
+ - App icon [#16](https://github.com/owncloud/templateeditor/pull/16)
  
- - app-themes support
+ - app-themes support [#52](https://github.com/owncloud/templateeditor/pull/52)
 
- - New user email templates support
+ - New user email templates support [#15](https://github.com/owncloud/templateeditor/pull/15)
 
 ### Changed
 
- - Better sharing email titles
-
- - Now default theme is not shown when it is removed from themes
+ - Now default theme is not shown when it is removed from themes [#26](https://github.com/owncloud/templateeditor/pull/26)
 
 ### Fixed
 
- - False-positive message 'Template not editable' when selecting a theme before selecting a template
+ - False-positive message 'Template not editable' when selecting a theme before selecting a template [#27](https://github.com/owncloud/templateeditor/pull/27)
 
- - Notice in log
+ - Notice in log [#6](https://github.com/owncloud/templateeditor/pull/6)
 
- - Hide Editor on deselecting template
+ - Hide Editor on deselecting template [#11](https://github.com/owncloud/templateeditor/pull/11)
  
- - Reset button
+ - Reset button [#10](https://github.com/owncloud/templateeditor/pull/10)
 
 ## [0.1] - 2014-07-22
 
 ### Added
 
- - Activity notification app support
+ - Activity notification app support [#4](https://github.com/owncloud/templateeditor/pull/4)
 
  - Initial implementation
 
