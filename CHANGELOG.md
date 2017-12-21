@@ -20,6 +20,8 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
 ### Fixed
 
+ - Can not edit mail templates when no custom themes available [#60](https://github.com/owncloud/templateeditor/pull/60)
+
  - False-positive message 'Template not editable' when selecting a theme before selecting a template [#27](https://github.com/owncloud/templateeditor/pull/27)
 
  - Notice in log [#6](https://github.com/owncloud/templateeditor/pull/6)
