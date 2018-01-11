@@ -17,6 +17,8 @@ OC.L10N.register(
     "Theme" : "ธีม",
     "Template" : "เทมเพลต",
     "Please choose a template" : "กรุณาเลือกเทมเพลต",
-    "Save" : "บันทึก"
+    "Save" : "บันทึก",
+    "You need to activate own theme to edit mail templates." : "คุณต้องเปิดใช้ธีมของตัวเองเพื่อแก้ไขแม่แบบจดหมาย",
+    "How to <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">create a theme</a>." : "วิธี <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">สร้างธีม</a>"
 },
 "nplurals=1; plural=0;");

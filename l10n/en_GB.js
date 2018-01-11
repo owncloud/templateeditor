@@ -17,6 +17,8 @@ OC.L10N.register(
     "Theme" : "Theme",
     "Template" : "Template",
     "Please choose a template" : "Please choose a template",
-    "Save" : "Save"
+    "Save" : "Save",
+    "You need to activate own theme to edit mail templates." : "You need to activate own theme to edit mail templates.",
+    "How to <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">create a theme</a>." : "How to <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">create a theme</a>."
 },
 "nplurals=2; plural=(n != 1);");

@@ -17,6 +17,7 @@ OC.L10N.register(
     "Theme" : "Тема",
     "Template" : "Шаблон",
     "Please choose a template" : "Моля, изберете шаблон",
-    "Save" : "Запазване"
+    "Save" : "Запазване",
+    "How to <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">create a theme</a>." : "Как да <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">създадем тема</a>"
 },
 "nplurals=2; plural=(n != 1);");

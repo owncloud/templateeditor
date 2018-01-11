@@ -17,6 +17,8 @@ OC.L10N.register(
     "Theme" : "Temë",
     "Template" : "Gjedhe",
     "Please choose a template" : "Ju lutemi, zgjidhni një gjedhe",
-    "Save" : "Ruaje"
+    "Save" : "Ruaje",
+    "You need to activate own theme to edit mail templates." : "Lypset të aktivizoni temën e vet që të përpunoni gjedhe poste.",
+    "How to <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">create a theme</a>." : "Si të <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">krijohet një temë</a>."
 },
 "nplurals=2; plural=(n != 1);");

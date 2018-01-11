@@ -17,6 +17,8 @@ OC.L10N.register(
     "Theme" : "Тема",
     "Template" : "Шаблон",
     "Please choose a template" : "Выберите шаблон",
-    "Save" : "Сохранить"
+    "Save" : "Сохранить",
+    "You need to activate own theme to edit mail templates." : "Чтобы править ваши почтовые шаблоны вам нужно включить свою тему.",
+    "How to <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">create a theme</a>." : "Как <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">создать тему</a>."
 },
 "nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);");
