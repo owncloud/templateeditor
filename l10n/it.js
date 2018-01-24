@@ -17,6 +17,7 @@ OC.L10N.register(
     "Theme" : "Tema",
     "Template" : "Modello",
     "Please choose a template" : "Scegli un modello",
-    "Save" : "Salva"
+    "Save" : "Salva",
+    "How to <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">create a theme</a>." : "Come <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">creare un tema</a>."
 },
 "nplurals=2; plural=(n != 1);");
