@@ -17,6 +17,8 @@ OC.L10N.register(
     "Theme" : "Drakt",
     "Template" : "Mal",
     "Please choose a template" : "Velg en mal",
-    "Save" : "Lagre"
+    "Save" : "Lagre",
+    "You need to activate own theme to edit mail templates." : "Du må aktivere ditt eget tema for å redigere postmaler.",
+    "How to <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">create a theme</a>." : "Hvordan lage  <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\"> et tema</a>."
 },
 "nplurals=2; plural=(n != 1);");
