@@ -16,6 +16,7 @@ For more information, please read the [ownCloud Documentation](https://doc.owncl
 	<documentation>
 		<admin>https://doc.owncloud.com/server/latest/admin_manual/configuration/server/email_configuration.html#using-email-templates</admin>
 	</documentation>
+	<screenshot>https://raw.githubusercontent.com/owncloud/screenshots/master/templateeditor/template_editor.jpg</screenshot>
 	<namespace>TemplateEditor</namespace>
 	<dependencies>
 		<owncloud min-version="10.0.3" max-version="10.1" />
