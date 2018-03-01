@@ -10,7 +10,7 @@ While it is possible to manually change email templates within ownCloud, this ap
 	<version>0.2</version>
 	<namespace>TemplateEditor</namespace>
 	<dependencies>
-		<owncloud min-version="10.0.3" max-version="10.0.99" />
+		<owncloud min-version="10.0.3" max-version="10.1" />
 	</dependencies>
 	<default_enable/>
 	<settings>
