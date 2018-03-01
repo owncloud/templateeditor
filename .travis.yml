@@ -7,7 +7,7 @@ php:
   
 env:
   global:
-    - CORE_BRANCH=master
+    - CORE_BRANCH=stable10
   matrix:
     - DB=sqlite
 
@@ -34,4 +34,9 @@ script:
   # - php ocular.phar code-coverage:upload --format=php-clover clover.xml
 
 matrix:
+  include:
+    - php: 7.1
+      env: DB=sqlite CORE_BRANCH=master
+    - php: 7.2
+      env: DB=sqlite CORE_BRANCH=master
   fast_finish: true
