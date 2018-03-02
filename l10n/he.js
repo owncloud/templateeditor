@@ -17,6 +17,8 @@ OC.L10N.register(
     "Theme" : "מוטיב עיצוב",
     "Template" : "תבנית עיצוב",
     "Please choose a template" : "יש לבחור תבנית עיצוב",
-    "Save" : "שמירה"
+    "Save" : "שמירה",
+    "You need to activate own theme to edit mail templates." : "יש להפעיל ערכת עיצוב משלך כדי לערוך תבניות דוא״ל.",
+    "How to <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">create a theme</a>." : "איך יוצרים <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">ערכת עיצוב</a>."
 },
 "nplurals=2; plural=(n != 1);");

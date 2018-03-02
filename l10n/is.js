@@ -17,6 +17,8 @@ OC.L10N.register(
     "Theme" : "Þema",
     "Template" : "Sniðmát",
     "Please choose a template" : "Veldu sniðmát",
-    "Save" : "Vista"
+    "Save" : "Vista",
+    "You need to activate own theme to edit mail templates." : "Þú þarft að virkja eigið þema til að geta breytt póstsniðmátum.",
+    "How to <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">create a theme</a>." : "Hvernig á að <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">búa til þema</a>."
 },
 "nplurals=2; plural=(n % 10 != 1 || n % 100 == 11);");
