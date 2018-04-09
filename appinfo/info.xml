@@ -11,7 +11,7 @@ The Mail Template Editor provides an easier and more comfortable way for ownClou
 For more information, please read the [ownCloud Documentation](https://doc.owncloud.com/server/latest/admin_manual/configuration/server/email_configuration.html#using-email-templates).</description>
 	<licence>AGPL</licence>
 	<author>Jörn Dreyer</author>
-	<version>0.2</version>
+	<version>0.3</version>
 	<category>customization</category>
 	<documentation>
 		<admin>https://doc.owncloud.com/server/latest/admin_manual/configuration/server/email_configuration.html#using-email-templates</admin>
