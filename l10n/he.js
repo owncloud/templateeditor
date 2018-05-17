@@ -21,4 +21,4 @@ OC.L10N.register(
     "You need to activate own theme to edit mail templates." : "יש להפעיל ערכת עיצוב משלך כדי לערוך תבניות דוא״ל.",
     "How to <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">create a theme</a>." : "איך יוצרים <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">ערכת עיצוב</a>."
 },
-"nplurals=2; plural=(n != 1);");
+"nplurals=4; plural=(n==1 ? 1: n == 2 ? 2 : (n % 10 == 0 and n > 10) ? 4);");

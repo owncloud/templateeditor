@@ -16,5 +16,5 @@
     "Template" : "قالب",
     "Please choose a template" : "لطفا یک قالب انتخاب کنید",
     "Save" : "ذخیره"
-},"pluralForm" :"nplurals=1; plural=0;"
+},"pluralForm" :"nplurals=2; plural=((n<=1 && n>= 0) ? 1);"
 }
