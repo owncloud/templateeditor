@@ -18,5 +18,5 @@
     "Save" : "שמירה",
     "You need to activate own theme to edit mail templates." : "יש להפעיל ערכת עיצוב משלך כדי לערוך תבניות דוא״ל.",
     "How to <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">create a theme</a>." : "איך יוצרים <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">ערכת עיצוב</a>."
-},"pluralForm" :"nplurals=4; plural=(n==1 ? 1: n == 2 ? 2 : (n % 10 == 0 and n > 10) ? 4);"
+},"pluralForm" :"nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;"
 }
