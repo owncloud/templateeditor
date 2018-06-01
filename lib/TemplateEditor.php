@@ -75,6 +75,11 @@ class TemplateEditor {
 			$tmplPath = \OC_App::getAppPath('activity') . '/templates/email.notification.php';
 			$path = substr($tmplPath, strlen(\OC::$SERVERROOT) + 1);
 			$templates[$path] = $l10n->t('Activity notification mail');
+			$htmlTemplatePath = \OC_App::getAppPath('activity') . '/templates/html.notification.php';
+			if (file_exists($htmlTemplatePath)) {
+				$htmlTemplateRelativePath = substr($htmlTemplatePath, strlen(\OC::$SERVERROOT) + 1);
+				$templates[$htmlTemplateRelativePath] = $l10n->t('Activity notification mail (HTML)');
+			}
 		}
 
 		return $templates;
@@ -91,5 +96,4 @@ class TemplateEditor {
 			$template
 		);
 	}
-
 }

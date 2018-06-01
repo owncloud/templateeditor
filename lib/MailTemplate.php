@@ -53,6 +53,9 @@ class MailTemplate extends \OC_Template {
 	 */
 	protected function getTemplateDetails() {
 		list($app, $filename) = explode('/templates/', $this->path, 2);
+		if (\strpos($app, '/') !== false) {
+			$app = \basename($app);
+		}
 		$name = substr($filename, 0, -4);
 		$template = $this->findTemplate($this->theme, $app, $name);
 		return $template;
