@@ -13,6 +13,7 @@ OC.L10N.register(
     "New user email (HTML)" : "Новый шаблон письма (HTML)",
     "New user email (plain text fallback)" : "Новый шаблон письма (обычный текст)",
     "Activity notification mail" : "Письмо уведомления об активности",
+    "Activity notification mail (HTML)" : "Почтовое уведомление о событиях",
     "Mail Templates" : "Шаблоны электронных писем",
     "Theme" : "Тема",
     "Template" : "Шаблон",
