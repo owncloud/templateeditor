@@ -13,6 +13,7 @@ OC.L10N.register(
     "New user email (HTML)" : "Nueva dirección de correo electrónico del usuario (HTML)",
     "New user email (plain text fallback)" : "Nuevo usuario de correo electrónico (texto plano)",
     "Activity notification mail" : "Correo electrónico - notificación de actividad",
+    "Activity notification mail (HTML)" : "Activar e-mail de notificación (HTML)",
     "Mail Templates" : "Plantillas de correo",
     "Theme" : "Tema",
     "Template" : "Plantilla",
