@@ -107,6 +107,15 @@ class TemplateEditor {
 				$this->l10n->t('New user email (plain text fallback)'),
 		];
 
+		$additionalCoreTemplates = $this->getAdditionalCoreTemplates(
+			[
+				'core/templates/html.mail.footer.php' =>
+					$this->l10n->t('Common email footer (HTML)'),
+				'core/templates/plain.mail.footer.php' =>
+					$this->l10n->t('Common email footer (plain text)'),
+			]
+		);
+
 		$activityTemplates = $this->getAppTemplates(
 			'activity',
 			[
@@ -128,6 +137,7 @@ class TemplateEditor {
 		);
 		$templates = \array_merge(
 			$templates,
+			$additionalCoreTemplates,
 			$activityTemplates,
 			$notificationsTemplates
 		);
@@ -136,9 +146,24 @@ class TemplateEditor {
 	}
 
 	/**
+	 * @param string[] $templates
+	 * @return string[]
+	 */
+	public function getAdditionalCoreTemplates($templates) {
+		$serverRoot = $this->environmentHelper->getServerRoot();
+		$existingTemplates = [];
+		foreach ($templates as $templatePath => $templateTitle) {
+			if ($this->fileExists($serverRoot . '/' . $templatePath)) {
+				$existingTemplates[$templatePath] = $templateTitle;
+			}
+		}
+		return $existingTemplates;
+	}
+
+	/**
 	 * @param string $appId
 	 * @param string[] $templates
-	 * @return array
+	 * @return string[]
 	 */
 	protected function getAppTemplates($appId, $templates) {
 		$appTemplates = [];
