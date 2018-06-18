@@ -1,6 +1,7 @@
 <?php
 /**
  * @author Philipp Schaffrath <github@philipp.schaffrath.email>
+ * @author Viktar Dubiniuk <dubiniuk@owncloud.com>
  *
  * @copyright Copyright (c) 2017, ownCloud GmbH
  * @license AGPL-3.0
@@ -20,7 +21,9 @@
  */
 namespace OCA\TemplateEditor;
 
-use OCP\App;
+use OC\Helper\EnvironmentHelper;
+use OCP\App\IAppManager;
+use OCP\IL10N;
 use OCP\Theme\IThemeService;
 
 class TemplateEditor {
@@ -31,12 +34,37 @@ class TemplateEditor {
 	private $themeService;
 
 	/**
+	 * @var IAppManager
+	 */
+	private $appManager;
+
+	/**
+	 * @var EnvironmentHelper
+	 */
+	private $environmentHelper;
+
+	/**
+	 * @var IL10N
+	 */
+	private $l10n;
+
+	/**
 	 * TemplateEditor constructor.
 	 *
 	 * @param IThemeService $themeService
+	 * @param IAppManager $appManager
+	 * @param EnvironmentHelper $environmentHelper
+	 * @param IL10N $l10n
 	 */
-	public function __construct(IThemeService $themeService) {
+	public function __construct(IThemeService $themeService,
+								IAppManager $appManager,
+								EnvironmentHelper $environmentHelper,
+								IL10N $l10n
+	) {
 		$this->themeService = $themeService;
+		$this->appManager = $appManager;
+		$this->environmentHelper = $environmentHelper;
+		$this->l10n = $l10n;
 	}
 
 	/**
@@ -48,7 +76,9 @@ class TemplateEditor {
 		$themeNames = [];
 		foreach ($themes as $theme) {
 			$themeName = $theme->getName();
-			if (is_array(App::getAppInfo($themeName)) && !App::isEnabled($themeName)) {
+			if (\is_array($this->appManager->getAppInfo($themeName))
+				&& !$this->appManager->isInstalled($themeName)
+			) {
 				continue;
 			}
 			$themeNames[] = $themeName;
@@ -60,29 +90,86 @@ class TemplateEditor {
 	 * @return array
 	 */
 	public function getEditableTemplates() {
-		$l10n = \OC::$server->getL10NFactory()->get('templateeditor');
 		$templates = [
-			'core/templates/mail.php' => $l10n->t('Sharing email - public link shares (HTML)'),
-			'core/templates/altmail.php' => $l10n->t('Sharing email - public link shares (plain text fallback)'),
-			'core/templates/internalmail.php' => $l10n->t('Sharing email (HTML)'),
-			'core/templates/internalaltmail.php' => $l10n->t('Sharing email (plain text fallback)'),
-			'core/templates/lostpassword/email.php' => $l10n->t('Lost password mail'),
-			'settings/templates/email.new_user.php' => $l10n->t('New user email (HTML)'),
-			'settings/templates/email.new_user_plain_text.php' => $l10n->t('New user email (plain text fallback)'),
+			'core/templates/mail.php' =>
+				$this->l10n->t('Sharing email - public link shares (HTML)'),
+			'core/templates/altmail.php' =>
+				$this->l10n->t('Sharing email - public link shares (plain text fallback)'),
+			'core/templates/internalmail.php' =>
+				$this->l10n->t('Sharing email (HTML)'),
+			'core/templates/internalaltmail.php' =>
+				$this->l10n->t('Sharing email (plain text fallback)'),
+			'core/templates/lostpassword/email.php' =>
+				$this->l10n->t('Lost password mail'),
+			'settings/templates/email.new_user.php' =>
+				$this->l10n->t('New user email (HTML)'),
+			'settings/templates/email.new_user_plain_text.php' =>
+				$this->l10n->t('New user email (plain text fallback)'),
 		];
 
-		if (App::isEnabled('activity')) {
-			$tmplPath = \OC_App::getAppPath('activity') . '/templates/email.notification.php';
-			$path = substr($tmplPath, strlen(\OC::$SERVERROOT) + 1);
-			$templates[$path] = $l10n->t('Activity notification mail');
-			$htmlTemplatePath = \OC_App::getAppPath('activity') . '/templates/html.notification.php';
-			if (file_exists($htmlTemplatePath)) {
-				$htmlTemplateRelativePath = substr($htmlTemplatePath, strlen(\OC::$SERVERROOT) + 1);
-				$templates[$htmlTemplateRelativePath] = $l10n->t('Activity notification mail (HTML)');
-			}
-		}
+		$activityTemplates = $this->getAppTemplates(
+			'activity',
+			[
+				'/templates/html.notification.php' =>
+					$this->l10n->t('Activity notification mail (HTML)'),
+				'/templates/email.notification.php' =>
+					$this->l10n->t('Activity notification mail (plain text)')
+			]
+		);
+
+		$notificationsTemplates = $this->getAppTemplates(
+			'notifications',
+			[
+				'/templates/mail/htmlmail.php' =>
+					$this->l10n->t('Notifications app mail (HTML)'),
+				'/templates/mail/plaintextmail.php' =>
+					$this->l10n->t('Notifications app mail (plain text)')
+			]
+		);
+		$templates = \array_merge(
+			$templates,
+			$activityTemplates,
+			$notificationsTemplates
+		);
 
 		return $templates;
+	}
+
+	/**
+	 * @param string $appId
+	 * @param string[] $templates
+	 * @return array
+	 */
+	protected function getAppTemplates($appId, $templates) {
+		$appTemplates = [];
+		if ($this->appManager->isInstalled($appId)) {
+			$appPath = $this->appManager->getAppPath($appId);
+			$relativeAppPath = $this->getRelativePath($appPath);
+			foreach ($templates as $templatePath => $templateTitle) {
+				$fullPath = $appPath . $templatePath;
+				if ($this->fileExists($fullPath)) {
+					$appTemplates[$relativeAppPath . $templatePath] = $templateTitle;
+				}
+			}
+		}
+		return $appTemplates;
+	}
+
+	/**
+	 * @param string $absolutePath
+	 * @return string
+	 */
+	protected function getRelativePath($absolutePath) {
+		$serverRoot = $this->environmentHelper->getServerRoot();
+		return \substr($absolutePath, \strlen($serverRoot) + 1);
+	}
+
+	/**
+	 * @param string $path
+	 * @return bool
+	 */
+	protected function fileExists($path) {
+		return \file_exists($path);
 	}
 
 	/**
