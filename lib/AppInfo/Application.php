@@ -23,6 +23,7 @@
 
 namespace OCA\TemplateEditor\AppInfo;
 
+use OC\Helper\EnvironmentHelper;
 use OCA\TemplateEditor\Controller\AdminSettingsController;
 use OCA\TemplateEditor\TemplateEditor;
 use OCP\AppFramework\App;
@@ -39,7 +40,12 @@ class Application extends App {
 		$container = $this->getContainer();
 
 		$container->registerService('TemplateEditor', function (IAppContainer $container) {
-			return new TemplateEditor($container->query('ThemeService'));
+			return new TemplateEditor(
+				$container->query('ThemeService'),
+				$container->query('AppManager'),
+				new EnvironmentHelper(),
+				\OC::$server->getL10NFactory()->get('templateeditor')
+			);
 		});
 
 		$container->registerService('AdminSettingsController', function(IAppContainer $container) {
