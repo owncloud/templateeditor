@@ -12,7 +12,6 @@ OC.L10N.register(
     "Lost password mail" : "E-post om mistet passord",
     "New user email (HTML)" : "E-post om ny bruker (HTML)",
     "New user email (plain text fallback)" : "E-post om ny bruker (ren tekst)",
-    "Activity notification mail" : "E-post med varsling om aktivitet",
     "Mail Templates" : "Maler for e-poster",
     "Theme" : "Drakt",
     "Template" : "Mal",

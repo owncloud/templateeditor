@@ -12,7 +12,6 @@ OC.L10N.register(
     "Lost password mail" : "Perdi a palavra passe do correio",
     "New user email (HTML)" : "Novo correio eletrónico do utilizador (HTML)",
     "New user email (plain text fallback)" : "Novo correio eletrónico do utilizador (\"fallback\" de texto simples)",
-    "Activity notification mail" : "E-mail de notificação da atividade",
     "Mail Templates" : "Modelos de Correio",
     "Theme" : "Tema",
     "Template" : "Modelo",

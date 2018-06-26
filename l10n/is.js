@@ -12,7 +12,6 @@ OC.L10N.register(
     "Lost password mail" : "Póstur fyrir týnd lykilorð",
     "New user email (HTML)" : "Póstur fyrir nýjan notanda (HTML)",
     "New user email (plain text fallback)" : "Póstur fyrir nýjan notanda (hreinn texti til vara)",
-    "Activity notification mail" : "Virkja tilkynningapóst",
     "Mail Templates" : "Póstsniðmát",
     "Theme" : "Þema",
     "Template" : "Sniðmát",

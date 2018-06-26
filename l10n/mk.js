@@ -12,7 +12,6 @@ OC.L10N.register(
     "Lost password mail" : "Заборавена лозинка",
     "New user email (HTML)" : "Нов корисник (HTML)",
     "New user email (plain text fallback)" : "Нов корисник (чист текст)",
-    "Activity notification mail" : "Известување за активности",
     "Mail Templates" : "Email шаблони",
     "Theme" : "Теми",
     "Template" : "Шаблон",
