@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/).
 
+## [Unreleased]
+
+## [0.3.1]
+
+- Add templates for footers and notifications - [#76](https://github.com/owncloud/templateeditor/issues/76)
+- Add activity html template support - [#69](https://github.com/owncloud/templateeditor/issues/69)
+
 ## [0.3] - 2018-04-09
 
 First marketplace release
@@ -43,4 +50,6 @@ First marketplace release
 
  - Initial implementation
  
+ [Unreleased]: https://github.com/owncloud/templateeditor/compare/v0.3.1...master
+ [0.3.1]: https://github.com/owncloud/templateeditor/compare/v0.3...v0.3.1
  [0.3]: https://github.com/owncloud/templateeditor/compare/v0.2...v0.3
