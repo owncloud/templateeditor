@@ -12,11 +12,16 @@ OC.L10N.register(
     "Lost password mail" : "Wiadomość o resetowaniu hasła",
     "New user email (HTML)" : "Email o nowym użytkowniku (HTML)",
     "New user email (plain text fallback)" : "Email o nowym użytkowniku (zwykły tekst)",
-    "Activity notification mail" : "Powiadomienie o aktywności",
+    "Common email footer (HTML)" : "Wspólna stopka email (HTML)",
+    "Common email footer (plain text)" : "Wspólna stopka email (zwykły tekst)",
+    "Activity notification mail (HTML)" : "Aktywacja powiadomień email (HTML)",
+    "Activity notification mail (plain text)" : "Aktywacja powiadomień email (zwykły tekst)",
     "Mail Templates" : "Szablony emaili",
     "Theme" : "Motyw",
     "Template" : "Szablon",
     "Please choose a template" : "Proszę wybierz szablon",
-    "Save" : "Zapisz"
+    "Save" : "Zapisz",
+    "You need to activate own theme to edit mail templates." : "Musisz aktywować własne style aby móc edytować szablony wiadomości e-mail.",
+    "How to <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">create a theme</a>." : "Jak <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">stworzyć własne style</a>."
 },
 "nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);");
