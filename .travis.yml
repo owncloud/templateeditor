@@ -39,4 +39,8 @@ matrix:
       env: DB=sqlite CORE_BRANCH=master
     - php: 7.2
       env: DB=sqlite CORE_BRANCH=master
+    - php: 7.1
+      env: DB=sqlite CORE_BRANCH=stable10
+    - php: 7.2
+      env: DB=sqlite CORE_BRANCH=stable10
   fast_finish: true
