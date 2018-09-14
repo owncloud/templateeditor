@@ -12,6 +12,8 @@ OC.L10N.register(
     "Lost password mail" : "Messaggio per recupero password",
     "New user email (HTML)" : "Nuova email utente (HTML)",
     "New user email (plain text fallback)" : "Nuova email utente (testo semplice)",
+    "Activity notification mail (HTML)" : "Messaggio di notifica dell'attività (HTML)",
+    "Activity notification mail (plain text)" : "Messaggio di notifica dell'attività (testo semplice)",
     "Mail Templates" : "Modelli di messaggio",
     "Theme" : "Tema",
     "Template" : "Modello",
