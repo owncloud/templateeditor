@@ -12,6 +12,8 @@ OC.L10N.register(
     "Lost password mail" : "E-post om mistet passord",
     "New user email (HTML)" : "E-post om ny bruker (HTML)",
     "New user email (plain text fallback)" : "E-post om ny bruker (ren tekst)",
+    "Common email footer (HTML)" : "Fellers e-post fotnote (HTML)",
+    "Common email footer (plain text)" : "Fellers e-post fotnote (ren tekst)",
     "Activity notification mail (HTML)" : "E-post med varsling om aktivitet (HTML)",
     "Activity notification mail (plain text)" : "E-post med varsling om aktivitet (Ren Tekst)",
     "Mail Templates" : "Maler for e-poster",
