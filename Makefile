@@ -36,10 +36,11 @@ dist: source appstore
 source:
 	rm -rf $(source_build_directory)
 	mkdir -p $(source_build_directory)
-	tar cvzf $(source_package_name).tar.gz ../$(app_name) \
+	tar --format=gnu -cvzf $(source_package_name).tar.gz \
 	--exclude-vcs \
 	--exclude="../$(app_name)/build" \
-	--exclude="../$(app_name)/*.log"
+	--exclude="../$(app_name)/*.log" \
+	../$(app_name)
 
 # Builds the source package for the app store, ignores php and js tests
 .PHONY: appstore
