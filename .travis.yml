@@ -26,7 +26,7 @@ script:
   - sh -c "if [ '$DB' = 'sqlite' ]; then ant test; fi"
 
   # Run phpunit tests
-  - ../../lib/composer/bin/phpunit --configuration phpunit.xml
+  - make test-php-unit
 
   # Create coverage report
   # - wget https://scrutinizer-ci.com/ocular.phar
