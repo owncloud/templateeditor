@@ -48,7 +48,7 @@ class Application extends App {
 			);
 		});
 
-		$container->registerService('AdminSettingsController', function(IAppContainer $container) {
+		$container->registerService('AdminSettingsController', function (IAppContainer $container) {
 			return new AdminSettingsController(
 				$container->query('AppName'),
 				$container->query('Request'),

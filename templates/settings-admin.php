@@ -6,12 +6,12 @@
 ?>
 <div class="section" id="mailTemplateSettings" >
 	<h2 class="app-name"><?php p($l->t('Mail Templates'));?></h2>
-	<?php if (count($_['themeNames'])): ?>
+	<?php if (\count($_['themeNames'])): ?>
 	<div class="actions">
 		<div>
 			<label for="mts-theme"><?php p($l->t('Theme'));?></label>
 			<select id="mts-theme">
-				<?php foreach($_['themeNames'] as $themeName): ?>
+				<?php foreach ($_['themeNames'] as $themeName): ?>
 				<option value="<?php p($themeName); ?>"><?php p($themeName); ?></option>
 				<?php endforeach; ?>
 			</select>
@@ -20,7 +20,7 @@
 			<label for="mts-template"><?php p($l->t('Template'));?></label>
 			<select id="mts-template">
 				<option value="" selected><?php p($l->t('Please choose a template')); ?></option>
-				<?php foreach($_['editableTemplates'] as $template => $caption): ?>
+				<?php foreach ($_['editableTemplates'] as $template => $caption): ?>
 				<option value="<?php p($template); ?>"><?php p($caption); ?></option>
 				<?php endforeach; ?>
 			</select>
