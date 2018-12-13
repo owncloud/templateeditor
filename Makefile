@@ -57,6 +57,7 @@ appstore:
 	templates \
 	COPYING \
 	CHANGELOG.md \
+	README.md \
 	$(appstore_package_name)
 
 ifdef CAN_SIGN
