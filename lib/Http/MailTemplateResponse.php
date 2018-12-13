@@ -30,7 +30,6 @@ use OCP\AppFramework\Http\Response;
  * Prompts the user to download the a file
  */
 class MailTemplateResponse extends Response {
-
 	private $filename;
 	private $contentType;
 
@@ -51,7 +50,7 @@ class MailTemplateResponse extends Response {
 	 * Returns the raw template content
 	 * @return string the file
 	 */
-	public function render(){
-		return file_get_contents($this->filename);
+	public function render() {
+		return \file_get_contents($this->filename);
 	}
 }

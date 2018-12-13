@@ -59,7 +59,7 @@ class TemplateEditorTest extends TestCase {
 		);
 
 		$templates = $templateEditor->getEditableTemplates();
-		$this->assertEquals(7, count($templates));
+		$this->assertEquals(7, \count($templates));
 	}
 
 	public function testBaseAndFooterTemplates() {
@@ -84,7 +84,7 @@ class TemplateEditorTest extends TestCase {
 			->method('fileExists')
 			->willReturnCallback(
 				function ($path) use ($serverRoot) {
-					return in_array(
+					return \in_array(
 						$path,
 						[
 							$serverRoot . '/core/templates/html.mail.footer.php',
@@ -95,6 +95,6 @@ class TemplateEditorTest extends TestCase {
 			);
 
 		$templates = $templateEditor->getEditableTemplates();
-		$this->assertEquals(9, count($templates));
+		$this->assertEquals(9, \count($templates));
 	}
 }

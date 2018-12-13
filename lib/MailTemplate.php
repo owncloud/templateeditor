@@ -52,11 +52,11 @@ class MailTemplate extends \OC_Template {
 	 * @return string
 	 */
 	protected function getTemplateDetails() {
-		list($app, $filename) = explode('/templates/', $this->path, 2);
+		list($app, $filename) = \explode('/templates/', $this->path, 2);
 		if (\strpos($app, '/') !== false) {
 			$app = \basename($app);
 		}
-		$name = substr($filename, 0, -4);
+		$name = \substr($filename, 0, -4);
 		$template = $this->findTemplate($this->theme, $app, $name);
 		return $template;
 	}
@@ -70,18 +70,18 @@ class MailTemplate extends \OC_Template {
 		$absolutePath = $this->getAbsoluteTemplatePath();
 
 		// TODO: check what the minimum permissions are.
-		if (!is_dir(dirname($absolutePath)) ) {
-			if (!mkdir(dirname($absolutePath), 0777, true)){
+		if (!\is_dir(\dirname($absolutePath))) {
+			if (!\mkdir(\dirname($absolutePath), 0777, true)) {
 				throw new \Exception('Could not create directory.', 500);
 			}
 		}
-		if (is_file($absolutePath) ) {
-			if (!copy($absolutePath, $absolutePath.'.bak')){
+		if (\is_file($absolutePath)) {
+			if (!\copy($absolutePath, $absolutePath.'.bak')) {
 				throw new \Exception('Could not create template backup.', 500);
 			}
 		}
 
-		return file_put_contents($absolutePath, $content);
+		return \file_put_contents($absolutePath, $content);
 	}
 
 	/**
@@ -90,15 +90,15 @@ class MailTemplate extends \OC_Template {
 	public function reset() {
 		$absolutePath = $this->getAbsoluteTemplatePath();
 
-		if (is_file($absolutePath . '.bak')) {
-			if (rename($absolutePath . '.bak', $absolutePath)) {
+		if (\is_file($absolutePath . '.bak')) {
+			if (\rename($absolutePath . '.bak', $absolutePath)) {
 				return true;
 			}
-		} else if (unlink($absolutePath)) {
+		} elseif (\unlink($absolutePath)) {
 			return true;
 		}
 
-		return !file_exists($absolutePath);
+		return !\file_exists($absolutePath);
 	}
 
 	/**
