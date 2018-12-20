@@ -1,6 +1,6 @@
 # Template Editor
 
-[![Build Status](https://drone.owncloud.com/api/badges/owncloud/templateeditor/status.svg?branch=master)](https://drone.owncloud.com/owncloud/templateeditor)
+[![Build Status](https://drone.owncloud.com/api/badges/owncloud/templateeditor/status.svg?branch=master)](https://drone.owncloud.com/owncloud/templateeditor) [![codecov](https://codecov.io/gh/owncloud/templateeditor/branch/master/graph/badge.svg)](https://codecov.io/gh/owncloud/templateeditor)
 
 ownCloud comes with a built-in mail service to send various kinds of informative and action-requiring notifications to interact with users 
 (e.g., user/group and link share notifications, activity stream summary mails, password reset mails and more). 
