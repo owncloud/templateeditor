@@ -14,6 +14,8 @@
     "Common email footer (plain text)" : "Wspólna stopka email (zwykły tekst)",
     "Activity notification mail (HTML)" : "Aktywacja powiadomień email (HTML)",
     "Activity notification mail (plain text)" : "Aktywacja powiadomień email (zwykły tekst)",
+    "Notifications app mail (HTML)" : "Aplikacja do powiadomień email (HTML)",
+    "Notifications app mail (plain text)" : "Aplikacja do powiadomień email (tekst)",
     "Mail Templates" : "Szablony emaili",
     "Theme" : "Motyw",
     "Template" : "Szablon",
