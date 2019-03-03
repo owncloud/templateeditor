@@ -10,11 +10,13 @@
     "Lost password mail" : "Correo electrónico - contraseña perdida",
     "New user email (HTML)" : "Correo electrónico - nuevo usuario (HTML)",
     "New user email (plain text fallback)" : "Correo electrónico - nuevo usuario (Texto simple)",
-    "Activity notification mail" : "Correo electrónico de notificación de actividad",
+    "Activity notification mail (HTML)" : "Correo de notificación de actividad (HTML)",
+    "Activity notification mail (plain text)" : "Correo de notificación de actividad (Texto plano)",
     "Mail Templates" : "Plantillas de correo",
     "Theme" : "Temas",
     "Template" : "Plantilla",
     "Please choose a template" : "Por favor elije una plantilla",
-    "Save" : "Guardar"
+    "Save" : "Guardar",
+    "You need to activate own theme to edit mail templates." : "Necesitas activar tu propio tema para editar plantillas de correo-e."
 },"pluralForm" :"nplurals=2; plural=(n != 1);"
 }
