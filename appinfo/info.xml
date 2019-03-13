@@ -19,7 +19,7 @@ For more information, please read the [ownCloud Documentation](https://doc.owncl
 	<screenshot>https://raw.githubusercontent.com/owncloud/screenshots/master/templateeditor/ownCloud-app-email-template-editor.jpg</screenshot>
 	<namespace>TemplateEditor</namespace>
 	<dependencies>
-		<owncloud min-version="10.0.9" max-version="10" />
+		<owncloud min-version="10.2" max-version="10" />
 	</dependencies>
 	<default_enable/>
 	<website>https://github.com/owncloud/templateeditor/</website>
