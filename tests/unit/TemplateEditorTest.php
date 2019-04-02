@@ -12,22 +12,22 @@ use Test\TestCase;
 class TemplateEditorTest extends TestCase {
 
 	/**
-	 * @var IThemeService | \PHPUnit_Framework_MockObject_MockObject
+	 * @var IThemeService | \PHPUnit\Framework\MockObject\MockObject
 	 */
 	private $themeService;
 
 	/**
-	 * @var IAppManager | \PHPUnit_Framework_MockObject_MockObject
+	 * @var IAppManager | \PHPUnit\Framework\MockObject\MockObject
 	 */
 	private $appManager;
 
 	/**
-	 * @var EnvironmentHelper | \PHPUnit_Framework_MockObject_MockObject
+	 * @var EnvironmentHelper | \PHPUnit\Framework\MockObject\MockObject
 	 */
 	private $environmentHelper;
 
 	/**
-	 * @var IL10N | \PHPUnit_Framework_MockObject_MockObject
+	 * @var IL10N | \PHPUnit\Framework\MockObject\MockObject
 	 */
 	private $l10n;
 
