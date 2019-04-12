@@ -1,7 +1,7 @@
 OC.L10N.register(
     "templateeditor",
     {
-    "Could not load template" : "Gat ekki hlaðið sniðmát",
+    "Could not load template" : "Gat ekki hlaðið sniðmátinu inn",
     "Saved" : "Vistað",
     "Reset" : "Endurstilla",
     "An error occurred" : "Villa kom upp",
