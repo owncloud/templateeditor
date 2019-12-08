@@ -31,7 +31,7 @@ class TemplateEditorTest extends TestCase {
 	 */
 	private $l10n;
 
-	protected function setUp() {
+	protected function setUp(): void {
 		parent::setUp();
 		$this->themeService = $this->getMockBuilder(IThemeService::class)
 			->disableOriginalConstructor()
