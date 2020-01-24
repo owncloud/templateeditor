@@ -12,6 +12,8 @@ OC.L10N.register(
     "Lost password mail" : "Kayıp parola postası",
     "New user email (HTML)" : "Yeni kullanıcı e-postası (HTML)",
     "New user email (plain text fallback)" : "Yeni kullanıcı e-postası (ikincil düz metin)",
+    "Common email footer (HTML)" : "Ortak e-posta altbilgisi (HTML)",
+    "Common email footer (plain text)" : "Ortak e-posta altbilgisi (düz metin)",
     "Activity notification mail (HTML)" : "Etkinlik bildirimi postası (HTML)",
     "Activity notification mail (plain text)" : "Etkinlik bildirimi postası (düz metin)",
     "Notifications app mail (HTML)" : "Bildirim uygulaması postası (HTML)",
@@ -20,6 +22,8 @@ OC.L10N.register(
     "Theme" : "Tema",
     "Template" : "Şablon",
     "Please choose a template" : "Lütfen bir şablon seçin",
-    "Save" : "Kaydet"
+    "Save" : "Kaydet",
+    "You need to activate own theme to edit mail templates." : "Posta şablonlarını düzenlemek için kendi temasını etkinleştirmeniz gerekir.",
+    "How to <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">create a theme</a>." : "Nasıl <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">tema oluşturulur</a>."
 },
 "nplurals=2; plural=(n > 1);");
