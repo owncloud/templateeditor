@@ -48,7 +48,7 @@ class MailTemplateResponse extends Response {
 
 	/**
 	 * Returns the raw template content
-	 * @return string the file
+	 * @return string|null the file
 	 */
 	public function render() {
 		return \file_get_contents($this->filename);
