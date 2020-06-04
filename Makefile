@@ -15,6 +15,8 @@ source_package_name=$(source_build_directory)/$(app_name)
 appstore_build_directory=$(CURDIR)/build/artifacts/appstore
 appstore_package_name=$(appstore_build_directory)/$(app_name)
 
+composer_deps=vendor
+
 # signing
 occ=$(CURDIR)/../../occ
 private_key=$(HOME)/.owncloud/certificates/$(app_name).key
@@ -44,8 +46,13 @@ help:
 	@fgrep -h "##" $(MAKEFILE_LIST) | fgrep -v fgrep | sed -e 's/\\$$//' | sed -e 's/##//' | sed -e 's/  */ /' | column -t -s :
 
 .PHONY: clean
-clean:
+clean: clean-deps
 	rm -rf ./build/artifacts
+
+.PHONY: clean-deps
+clean-deps:
+	rm -Rf ${composer_deps}
+	rm -Rf vendor-bin/**/vendor vendor-bin/**/composer.lock
 
 # Builds the source and appstore package
 .PHONY: dist
