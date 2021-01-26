@@ -1,6 +1,7 @@
 # Template Editor
-
-[![Build Status](https://drone.owncloud.com/api/badges/owncloud/templateeditor/status.svg?branch=master)](https://drone.owncloud.com/owncloud/templateeditor) [![codecov](https://codecov.io/gh/owncloud/templateeditor/branch/master/graph/badge.svg)](https://codecov.io/gh/owncloud/templateeditor)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=owncloud_templateeditor&metric=alert_status)](https://sonarcloud.io/dashboard?id=owncloud_templateeditor)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=owncloud_templateeditor&metric=security_rating)](https://sonarcloud.io/dashboard?id=owncloud_templateeditor)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=owncloud_templateeditor&metric=coverage)](https://sonarcloud.io/dashboard?id=owncloud_templateeditor)
 
 ownCloud comes with a built-in mail service to send various kinds of informative and action-requiring notifications to interact with users 
 (e.g., user/group and link share notifications, activity stream summary mails, password reset mails and more). 
