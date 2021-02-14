@@ -12,7 +12,7 @@
     "New user email (plain text fallback)" : "อีเมลของผู้ใช้ใหม่ (ข้อความธรรมดา)",
     "Common email footer (HTML)" : "ส่วนท้ายของอีเมล (HTML)",
     "Common email footer (plain text)" : "ส่วนท้ายของอีเมล (ข้อความธรรมดา)",
-    "Activity notification mail (HTML)" : "จดหมายแจ้งกิจกรรม (HTML)",
+    "Activity notification mail (HTML)" : "แจ้งเตือนกิจกรรมผ่านอีเมล (HTML)",
     "Activity notification mail (plain text)" : "อีเมลแจ้งเตือนกิจกรรม (ข้อความธรรมดา)",
     "Notifications app mail (HTML)" : "อีเมลการแจ้งเตือนแอปฯ (HTML)",
     "Notifications app mail (plain text)" : "อีเมลการแจ้งเตือนแอปฯ (ข้อความธรรมดา)",
@@ -21,7 +21,7 @@
     "Template" : "เทมเพลต",
     "Please choose a template" : "กรุณาเลือกเทมเพลต",
     "Save" : "บันทึก",
-    "You need to activate own theme to edit mail templates." : "คุณต้องเปิดใช้ธีมของตัวเองเพื่อแก้ไขแม่แบบจดหมาย",
-    "How to <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">create a theme</a>." : "วิธี <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">สร้างธีม</a>"
+    "You need to activate own theme to edit mail templates." : "คุณต้องเปิดใช้ธีมของตัวเองเพื่อแก้ไขแม่แบบของอีเมล",
+    "How to <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">create a theme</a>." : "<a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">วิธีสร้างธีม</a>"
 },"pluralForm" :"nplurals=1; plural=0;"
 }
