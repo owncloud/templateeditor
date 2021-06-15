@@ -56,10 +56,11 @@ class TemplateEditor {
 	 * @param EnvironmentHelper $environmentHelper
 	 * @param IL10N $l10n
 	 */
-	public function __construct(IThemeService $themeService,
-								IAppManager $appManager,
-								EnvironmentHelper $environmentHelper,
-								IL10N $l10n
+	public function __construct(
+		IThemeService $themeService,
+		IAppManager $appManager,
+		EnvironmentHelper $environmentHelper,
+		IL10N $l10n
 	) {
 		$this->themeService = $themeService;
 		$this->appManager = $appManager;
