@@ -101,7 +101,13 @@ class TemplateEditor {
 			'core/templates/internalaltmail.php' =>
 				$this->l10n->t('Sharing email (plain text fallback)'),
 			'core/templates/lostpassword/email.php' =>
-				$this->l10n->t('Lost password mail'),
+				$this->l10n->t('Lost password mail (HTML)'),
+			'core/templates/lostpassword/altemail.php' =>
+				$this->l10n->t('Lost password mail (plain text fallback)'),
+			'core/templates/lostpassword/notify.php' =>
+				$this->l10n->t('Password changed notification mail (HTML)'),
+			'core/templates/lostpassword/altnotify.php' =>
+				$this->l10n->t('Password changed notification mail (plain text fallback)'),
 			'settings/templates/email.new_user.php' =>
 				$this->l10n->t('New user email (HTML)'),
 			'settings/templates/email.new_user_plain_text.php' =>
