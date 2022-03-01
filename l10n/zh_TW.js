@@ -9,7 +9,6 @@ OC.L10N.register(
     "Sharing email - public link shares (plain text fallback)" : "分享電子郵件 - 公開共享連結 (純文本回傳)",
     "Sharing email (HTML)" : "分享電子郵件(HTML)",
     "Sharing email (plain text fallback)" : "分享電子郵件(純文本回傳)",
-    "Lost password mail" : "遺失密碼信",
     "New user email (HTML)" : "新使用者的電子郵件(HTML)",
     "New user email (plain text fallback)" : "新使用者的電子郵件(純文本回傳)",
     "Common email footer (HTML)" : "常用電子郵件結尾 (HTML)",

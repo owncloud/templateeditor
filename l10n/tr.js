@@ -9,7 +9,6 @@ OC.L10N.register(
     "Sharing email - public link shares (plain text fallback)" : "E-posta paylaşımı - herkese açık bağlantı paylaşımları (düz metin alternatifi)",
     "Sharing email (HTML)" : "Paylaşma e-postası (HTML)",
     "Sharing email (plain text fallback)" : "Paylaşma e-postası (düz metin, ikincil)",
-    "Lost password mail" : "Kayıp parola postası",
     "New user email (HTML)" : "Yeni kullanıcı e-postası (HTML)",
     "New user email (plain text fallback)" : "Yeni kullanıcı e-postası (ikincil düz metin)",
     "Common email footer (HTML)" : "Ortak e-posta altbilgisi (HTML)",

@@ -9,7 +9,6 @@ OC.L10N.register(
     "Sharing email - public link shares (plain text fallback)" : "שיתוף דואר אלקטרוני - קישורי שיתוף ציבוריים (טקסט פשוט מאוחזר)",
     "Sharing email (HTML)" : "שיתוף דואר אלקטרוני (HTML)",
     "Sharing email (plain text fallback)" : "שיתוף דואר אלקטרוני (טקסט פשוט מאוחזר)",
-    "Lost password mail" : "דואר אלקטרוני לאחזור סיסמא",
     "New user email (HTML)" : "דואר אלקטרוני למשתמש חדש (HTML)",
     "New user email (plain text fallback)" : "דואר אלקטרוני למשתמש חדש (טקסט פשוט מאוחזר)",
     "Common email footer (HTML)" : "חתימת דואר אלקטרוני שכיחה (HTML)",

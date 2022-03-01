@@ -9,7 +9,6 @@ OC.L10N.register(
     "Sharing email - public link shares (plain text fallback)" : "이메일로 공유 - 공개 링크 공유(일반 텍스트 폴백)",
     "Sharing email (HTML)" : "공유 이메일(HTML)",
     "Sharing email (plain text fallback)" : "공유 이메일(일반 텍스트 폴백)",
-    "Lost password mail" : "암호 찾기 메일",
     "New user email (HTML)" : "새 사용자 이메일(HTML)",
     "New user email (plain text fallback)" : "새 사용자 이메일(일반 텍스트 폴백)",
     "Common email footer (HTML)" : "하단 이메일 공통양식(HTML)",

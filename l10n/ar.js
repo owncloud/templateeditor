@@ -9,7 +9,6 @@ OC.L10N.register(
     "Sharing email - public link shares (plain text fallback)" : "مشاركة البريد الإلكتروني - مشاركات الرابط العام (نسخة بديلة بنص عادي)",
     "Sharing email (HTML)" : "مشاركة البريد الإلكتروني (HTML)",
     "Sharing email (plain text fallback)" : "مشاركة البريد الإلكتروني (نسخة بديلة بنص عادي)",
-    "Lost password mail" : "بريد بكلمة مرور مفقودة",
     "New user email (HTML)" : "بريد إلكتروني لمستخدم جديد (HTML)",
     "New user email (plain text fallback)" : "بريد إلكتروني لمستخدم جديد (نسخة بديلة بنص عادي)",
     "Common email footer (HTML)" : "تذييل بريد إلكتروني شائع (HTML)",

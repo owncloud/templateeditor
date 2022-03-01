@@ -9,7 +9,6 @@ OC.L10N.register(
     "Sharing email - public link shares (plain text fallback)" : "E-Mail-Benachrichtigung über eine öffentliche Link-Freigabe (Fallback - nur Text)",
     "Sharing email (HTML)" : "E-Mail-Benachrichtigung über internes Teilen (HTML)",
     "Sharing email (plain text fallback)" : "E-Mail-Benachrichtigung über internes Teilen (Fallback - nur Text)",
-    "Lost password mail" : "E-Mail-Benachrichtigung zum Zurücksetzen des Passworts",
     "New user email (HTML)" : "E-Mail-Benachrichtigung an neue Benutzer (HTML)",
     "New user email (plain text fallback)" : "E-Mail-Benachrichtigung an neue Benutzer (Fallback - nur Text)",
     "Common email footer (HTML)" : "Allgemeine E-Mail Fußzeile (HTML)",

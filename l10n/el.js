@@ -9,7 +9,6 @@ OC.L10N.register(
     "Sharing email - public link shares (plain text fallback)" : "Μήνυμα διαμοιρασμού - διαμοιρασμός δημόσιων συνδέσμων (απλό κείμενο)",
     "Sharing email (HTML)" : "Μήνυμα διαμοιρασμού (HTML)",
     "Sharing email (plain text fallback)" : "Μήνυμα διαμοιρασμού (απλό κείμενο)",
-    "Lost password mail" : "Μήνυμα χαμένου συνθηματικού",
     "New user email (HTML)" : "Μήνυμα νέου χρήστη (HTML)",
     "New user email (plain text fallback)" : "Μήνυμα νέου χρήστη (απλό κείμενο)",
     "Common email footer (HTML)" : "Υποσέλιδο κυρίως μηνύματος (HTML)",

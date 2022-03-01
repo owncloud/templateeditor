@@ -9,7 +9,6 @@ OC.L10N.register(
     "Sharing email - public link shares (plain text fallback)" : "Messaggio di condivisione - condivisioni di collegamenti pubblici (testo semplice)",
     "Sharing email (HTML)" : "Messaggio di condivisione (HTML)",
     "Sharing email (plain text fallback)" : "Messaggio di condivisione (testo semplice)",
-    "Lost password mail" : "Messaggio per recupero password",
     "New user email (HTML)" : "Nuova email utente (HTML)",
     "New user email (plain text fallback)" : "Nuova email utente (testo semplice)",
     "Common email footer (HTML)" : "Piè di pagina email comune (HTML)",
