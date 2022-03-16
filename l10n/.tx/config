@@ -7,4 +7,3 @@ file_filter = <lang>/templateeditor.po
 source_file = templates/templateeditor.pot
 source_lang = en
 type = PO
-
