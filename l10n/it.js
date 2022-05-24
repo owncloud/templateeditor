@@ -25,4 +25,4 @@ OC.L10N.register(
     "You need to activate own theme to edit mail templates." : "Devi attivare il tema personale per poter modificare il modello delle email.",
     "How to <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">create a theme</a>." : "Come <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">creare un tema</a>."
 },
-"nplurals=2; plural=(n != 1);");
+"nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;");

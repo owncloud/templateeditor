@@ -26,5 +26,5 @@
     "Save" : "Guardar",
     "You need to activate own theme to edit mail templates." : "Usted necesita activar su propio tema para editar las plantillas de correo.",
     "How to <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">create a theme</a>." : "Como <a target=\"_blank\" rel=\"noreferrer\" href=\"%s\">crear un tema </a>."
-},"pluralForm" :"nplurals=2; plural=(n != 1);"
+},"pluralForm" :"nplurals=3; plural=n == 1 ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;"
 }
