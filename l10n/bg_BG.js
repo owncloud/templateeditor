@@ -1,7 +1,7 @@
 OC.L10N.register(
     "templateeditor",
     {
-    "Could not load template" : "Неуспешно зареждане на шаблона",
+    "Could not load template" : "Неуспешно зареждане на шаблон",
     "Saved" : "Запазено",
     "Reset" : "Възстановяване",
     "An error occurred" : "Възникна грешка",
