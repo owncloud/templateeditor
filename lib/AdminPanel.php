@@ -27,7 +27,6 @@ use OCP\Settings\ISettings;
 use OCP\Template;
 
 class AdminPanel implements ISettings {
-
 	/**
 	 * @var TemplateEditor
 	 */

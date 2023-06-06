@@ -27,7 +27,6 @@ use OCP\Theme\ITheme;
 use OCA\TemplateEditor\Http\MailTemplateResponse;
 
 class MailTemplate extends \OC_Template {
-
 	/** @var string */
 	private $path;
 

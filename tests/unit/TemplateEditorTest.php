@@ -10,7 +10,6 @@ use OCP\Theme\IThemeService;
 use Test\TestCase;
 
 class TemplateEditorTest extends TestCase {
-
 	/**
 	 * @var IThemeService | \PHPUnit\Framework\MockObject\MockObject
 	 */
