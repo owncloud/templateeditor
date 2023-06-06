@@ -27,7 +27,6 @@ use OCP\IL10N;
 use OCP\Theme\IThemeService;
 
 class TemplateEditor {
-
 	/**
 	 * @var IThemeService
 	 */

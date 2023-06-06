@@ -30,7 +30,6 @@ use OCP\AppFramework\Http\JSONResponse;
 use OCP\IRequest;
 
 class AdminSettingsController extends ApiController {
-
 	/**
 	 * @var TemplateEditor
 	 */

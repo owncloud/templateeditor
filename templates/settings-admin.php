@@ -3,7 +3,7 @@
 	/** @var $_ array */
 	script('templateeditor', 'settings-admin');
 	style('templateeditor', 'settings-admin');
-?>
+	?>
 <div class="section" id="mailTemplateSettings" >
 	<h2 class="app-name"><?php p($l->t('Mail Templates'));?></h2>
 	<?php if (\count($_['themeNames'])): ?>

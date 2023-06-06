@@ -30,7 +30,6 @@ use OCP\AppFramework\App;
 use OCP\AppFramework\IAppContainer;
 
 class Application extends App {
-
 	/**
 	 * @param array $urlParams
 	 */

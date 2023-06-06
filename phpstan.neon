@@ -6,4 +6,4 @@ parameters:
     -
       message: '#Property OCA\\TemplateEditor\\Http\\MailTemplateResponse::\$contentType is never read, only written.#'
       path: lib/Http/MailTemplateResponse.php
-
+      count: 1
