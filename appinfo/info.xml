@@ -9,7 +9,7 @@
 	<version>0.5.0</version>
 	<category>customization</category>
 	<dependencies>
-		<owncloud min-version="8.2" max-version="12.0" />
+		<owncloud min-version="8.2" max-version="11.99" />
 	</dependencies>
 	<website>https://github.com/owncloud/templateeditor/</website>
 	<bugs>https://github.com/owncloud/templateeditor/issues</bugs>
