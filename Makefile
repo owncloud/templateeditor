@@ -73,12 +73,7 @@ appstore:
 	mkdir -p $(appstore_package_name)
 	cp --parents -r \
 	appinfo \
-	css \
 	img \
-	js \
-	l10n \
-	lib \
-	templates \
 	COPYING \
 	CHANGELOG.md \
 	README.md \
@@ -119,11 +114,6 @@ test-php-style-fix: vendor-bin/owncloud-codestyle/vendor
 test-php-phan: ## Run phan
 test-php-phan: vendor-bin/phan/vendor
 	$(PHAN) --config-file .phan/config.php --require-config-exists
-
-.PHONY: test-php-phpstan
-test-php-phpstan: ## Run phpstan
-test-php-phpstan: vendor-bin/phpstan/vendor
-	$(PHPSTAN) analyse --memory-limit=4G --configuration=./phpstan.neon --no-progress --level=5 appinfo lib
 
 #
 # Dependency management
