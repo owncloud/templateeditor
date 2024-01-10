@@ -9,8 +9,9 @@
 	<version>0.5.0</version>
 	<category>customization</category>
 	<dependencies>
-		<owncloud min-version="4" max-version="100" />
+		<owncloud min-version="8.2" max-version="11.99" />
 	</dependencies>
+	<screenshot>https://raw.githubusercontent.com/owncloud/screenshots/master/templateeditor/template_editor.jpg</screenshot>
 	<website>https://github.com/owncloud/templateeditor/</website>
 	<bugs>https://github.com/owncloud/templateeditor/issues</bugs>
 	<repository type="git">http://github.com/owncloud/templateeditor.git</repository>
